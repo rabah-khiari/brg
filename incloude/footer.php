@@ -19,12 +19,12 @@
                         <div class="col-md-6 col-lg-3">
                             <div class="footer-link">
                                 <h2>Services</h2>
-                                <a href="">Etude Architectural</a>
-                                <a href="">Génie Civil</a>
-                                <a href="">Corp d'état technique</a>
-                                <a href="">VRD TOPO</a>
-                                <a href="">Suivi des chantiers</a>
-                                <a href="">Métré Prix & Marché</a>
+                                <a href="service.php">Etude Architectural</a>
+                                <a href="service.php">Génie Civil</a>
+                                <a href="service.php">Corp d'état technique</a>
+                                <a href="service.php">VRD TOPO</a>
+                                <a href="service.php">Suivi des chantiers</a>
+                                <a href="service.php">Métré Prix & Marché</a>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
