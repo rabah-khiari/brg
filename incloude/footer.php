@@ -55,7 +55,7 @@
                             <p>&copy; <a href="#">BEREG</a>, All Right Reserved.</p>
                         </div>
                         <div class="col-md-6">
-                            <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                        <p style="color:#101535;">Designed By <a style="color:#101535;" href="https://htmlcodex.com">HTML Codex</a></p>
                         </div>
                     </div>
                 </div>
