@@ -33,7 +33,7 @@
                             <i class="flaticon-address"></i>
                         </div>
                         <div class="fact-text">
-                            <h2 data-toggle="counter-up">Centaines</h2>
+                            <h2 data-toggle="counter-up">+1000</h2>
                             <p>Grands projects réalisées</p>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
                             <i class="flaticon-crane"></i>
                         </div>
                         <div class="fact-text">
-                            <h2 data-toggle="counter-up">Plusieur</h2>
+                            <h2 data-toggle="counter-up">+5</h2>
                             <p>projets en cours</p>
                         </div>
                     </div>
