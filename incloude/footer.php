@@ -40,9 +40,9 @@
                         <div class="col-md-6 col-lg-3">
                             <div class="footer-link">
                                 <h2>Moyens Humains</h2>
-                                <a href="">46 Architectes</a>
-                                <a href="">59 Ingénieurs (Tous Corps d’Etat).</a>
-                                <a href="">41 Techniciens Supérieurs (Tous Corps d’Etat)</a>
+                                <a href="">36 Architectes</a>
+                                <a href="">49 Ingénieurs (Tous Corps d’Etat).</a>
+                                <a href="">31 Techniciens Supérieurs (Tous Corps d’Etat)</a>
                                 
                             </div>
                         </div>

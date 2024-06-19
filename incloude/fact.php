@@ -11,7 +11,7 @@
                             <i class="flaticon-worker"></i>
                         </div>
                         <div class="fact-text">
-                            <h2 data-toggle="counter-up">208</h2>
+                            <h2 data-toggle="counter-up">165</h2>
                             <p>employés expérimenté</p>
                         </div>
                     </div>
@@ -20,7 +20,7 @@
                             <i class="flaticon-building"></i>
                         </div>
                         <div class="fact-text">
-                            <h2 data-toggle="counter-up">63</h2>
+                            <h2 data-toggle="counter-up">86</h2>
                             <p>Clients satisfaits</p>
                         </div>
                     </div>
@@ -33,8 +33,8 @@
                             <i class="flaticon-address"></i>
                         </div>
                         <div class="fact-text">
-                            <h2 data-toggle="counter-up">1450</h2>
-                            <p>projects réalisées</p>
+                            <h2 data-toggle="counter-up">Centaines</h2>
+                            <p>Grands projects réalisées</p>
                         </div>
                     </div>
                     <div class="col-6">
@@ -42,7 +42,7 @@
                             <i class="flaticon-crane"></i>
                         </div>
                         <div class="fact-text">
-                            <h2 data-toggle="counter-up">12</h2>
+                            <h2 data-toggle="counter-up">Plusieur</h2>
                             <p>projets en cours</p>
                         </div>
                     </div>
