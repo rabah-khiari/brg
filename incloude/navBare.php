@@ -11,9 +11,9 @@
                 <div class="navbar-nav mr-auto">
                     <a href="index.php" class="nav-item nav-link ">Accueil </a>
                     <a href="about.php" class="nav-item nav-link">à propos</a>
-                    <a href="service.php" class="nav-item nav-link">Service</a>
+                    <a href="service.php" class="nav-item nav-link">Services</a>
                    
-                    <a href="portfolio.php" class="nav-item nav-link">projet</a>
+                    <a href="portfolio.php" class="nav-item nav-link">projets</a>
                     
                     <!--<a href="team.php" class="nav-item nav-link">équipe</a>-->
                     

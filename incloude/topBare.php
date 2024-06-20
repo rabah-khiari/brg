@@ -18,7 +18,7 @@
                                             <i class="flaticon-calendar"></i>
                                         </div>
                                         <div class="top-bar-text">
-                                            <h3>Heur de travail</h3>
+                                            <h3>Heure de travail</h3>
                                             <p>Dim - Jeu, 8:30 - 4:30</p>
                                         </div>
                                     </div>

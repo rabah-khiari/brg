@@ -114,7 +114,7 @@
                                     <i class="flaticon-building"></i>
                                 </div>
                                 <div class="feature-text">
-                                    <h3>travil qualité</h3>
+                                    <h3>travail qualité</h3>
                                     <p>travail de qualité repose sur la rigueur, l'attention aux détails et le souci constant de satisfaire les exigences du client.</p>
                                 </div>
                             </div>
