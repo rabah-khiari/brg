@@ -55,7 +55,7 @@
                                 <br> مكتب الدراسات و الابحاث و الاعمال الهندسية العامة 
                             </p>
                            
-                            <h1 class="animated fadeInLeft">BEREG</h1>
+                            <h1 class="animated fadeInLeft">BEREG </h1>
                             <p class="animated fadeInRight">bâtir l'avenir</p>
                             
                             <!--<a class="btn animated fadeInUp" href="https://htmlcodex.com/construction-company-website-template">Get A Quote</a>-->
@@ -171,26 +171,28 @@
             <div class="about wow fadeInUp" data-wow-delay="0.1s">
                 <div class="container">
                 <div class="section-header text-center">
-                       
+
                         <h2>Nos Sieges </h2>
                     </div>
                  
                     <div class="row align-items-center">
-                    
+                
                         <div class="col-lg-5 col-md-6">
                             <div class="about-img">
-                                <img src="img/DZmaps.jpg" alt="Image">
+                                <img style=" width: 150%; height: 150%;" src="img/DZmaps.jpg" alt="Image">
                             </div>
                         </div>
+
                         <div class="col-lg-7 col-md-6">
-                            <div class="about-text">
+                            <div style="margin-left: 200px;" class="about-text">
                                     <h5>Direction Générale <span style="font-weight: bold;font-size: 20px;"> ALGER -Bab Ezzouar </span></h5>
                                    <p> Pôle de<span style="font-weight: bold;font-size: 20px;"> Telemcen </span></p>
+                                   <p> Pôle de<span style="font-weight: bold;font-size: 20px;"> Tizi-Ouzou </span></p>
                                    <p> Pôle de<span style="font-weight: bold;font-size: 20px;"> Setif </span></p>
                                    <p> Pôle de<span style="font-weight: bold;font-size: 20px;"> Adrar </span></p>
                                    <p> Pôle de<span style="font-weight: bold;font-size: 20px;"> Chlef </span></p>
                                    <p> Pôle de<span style="font-weight: bold;font-size: 20px;"> Tiaret </span></p>
-                               
+
                             </div>
                         </div>
                     </div>
