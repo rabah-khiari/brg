@@ -32,7 +32,7 @@
                 <div class="row">
                     <div class="col-6">
                         <div class="fact-icon">
-                            <i class="flaticon-address">+</i>
+                            <i class="flaticon-address"></i>
                         </div>
                         <div class="fact-text">
                             plus de 
