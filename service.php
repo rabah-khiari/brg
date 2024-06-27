@@ -44,7 +44,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2> services</h2>
+                            <h2> Domaine d'activité </h2>
                         </div>
 
                     </div>
@@ -58,8 +58,8 @@
                 <div class="container">
                     <div class="section-header text-center">
                         
-                        <h2>Domaine d'activité </h2>
-                        <p>Dans le cadre de son activité, le BEREG assure des missions d’Etudes, de Contrôle et Suivi dans les domaines suivants </p>
+                        <h2> </h2>
+                     
                     </div>
                     <div class="row">
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -73,7 +73,7 @@
                                     </div>
                                 </div>
                                 <div class="service-text">
-                                    <h3>Etude Architectural</h3>
+                                    <h3>Etudes Architecturales</h3>
                                     <a class="btn" href="img/services/service-1.jpg" data-lightbox="service">+</a>
                                 </div>
                             </div>
@@ -167,9 +167,7 @@
             <!-- Service End -->
             
             
-            <!-- Footer Start -->
-              <?php include ('incloude/secteur.php'); ?> 
-            <!-- Footer End -->
+         
 
 
 

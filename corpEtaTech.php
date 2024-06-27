@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>BEREG -Projet</title>
+        <title>BEREG -À propos</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
@@ -29,7 +29,8 @@
 
     <body>
         <div class="wrapper">
-           <!-- Top Bar Start -->
+ 
+             <!-- Top Bar Start -->
            <?php include ('incloude/topBare.php'); ?>
             <!-- Top Bar End -->
 
@@ -38,36 +39,60 @@
             <?php include ('incloude/navBare.php'); ?>
             <!-- Nav Bar End -->
             
-            
             <!-- Page Header Start -->
             <div class="page-header">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2>Nos projets</h2>
-                            <h3> Le BEREG a réalisée depuis sa création plus de 1000 projets en étude et suivi </h3>
+                                 
+                            <h2> Corps d’état technique  </h2>
+                          
+                            
                         </div>
-                        
-                        
+                    
                     </div>
                 </div>
             </div>
             <!-- Page Header End -->
 
+
+            <!-- About Start -->
+            <div class="about wow fadeInUp shadow " data-wow-delay="0.1s">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-md-6">
+                            <div class="about-img">
+                                <img src="img/services/service-3.jpg" alt="Image">
+                            </div>
+                            
+                        </div>
+                        <div class="mt-0 col-lg-7 col-md-6">
+                            
+                            <div class="about-text">
+                                <p>
+                                Les corps d'état techniques concernent les métiers du bâtiment suivants: 
+                                <br>
+                                &nbsp; &nbsp; • &nbsp; corps d'état du gros-œuvre (GO) <br>
+                                &nbsp; &nbsp; • &nbsp; corps d'état du clos et couvert (CEC)<br>
+                                &nbsp; &nbsp; • &nbsp; corps d'état secondaires (CES)<br>
+                                &nbsp; &nbsp; • &nbsp; corps d'état Chauffage-Ventilation-Clim-Electricité (CVCE)<br>
+
+                                </p>
+                                <p>Ce domaine fait aussi partie des maîtrises du BEREG. Ses ingénieurs et techniciens peuvent réaliser les études de tous corps d’état technique en toutes circonstances.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
             
-            <!-- projectSipari Start -->
-            <?php include ('incloude/projetSipare.php'); ?>
-            <!-- projectSipari End -->
-
-             <!-- project Start -->
-             <?php //include ('incloude/projects.php'); ?>
-            <!-- projects End -->
-
            
-            <!-- Atestation Start -->
-            <?php //include ('incloude/atestation.php'); ?>
-            <!-- atestation End -->
             
+           
+            
+          
 
             <!-- Footer Start -->
             <?php include ('incloude/footer.php'); ?>

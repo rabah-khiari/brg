@@ -10,10 +10,45 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav mr-auto">
                     <a href="index.php" class="nav-item nav-link ">Accueil </a>
-                    <a href="about.php" class="nav-item nav-link">à propos</a>
-                    <a href="service.php" class="nav-item nav-link">Services</a>
+                    
+                    <div class="nav-item dropdown">
+                        <a href="about.php" class="nav-link dropdown-toggle" data-toggle="dropdown">à propos du BEREG</a>
+                        <div class="dropdown-menu">
+                            <a href="historique.php" class="dropdown-item">Historique </a>
+                            <a href="international.php" class="dropdown-item">BEREG à l'international </a>
+                            <a href="politique.php" class="dropdown-item">Politique qualité </a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="service.php" class="nav-link dropdown-toggle" data-toggle="dropdown">Domaines d'activité</a>
+                        <div class="dropdown-menu">
+                            <a href="etudeArchi.php" class="dropdown-item">Études Architecturales  </a>
+                            <a href="etudeGC.php" class="dropdown-item">Études de Génie Civil  </a>
+                            <a href="corpEtaTech.php" class="dropdown-item">Corps d’État Technique  </a>
+                            <a href="etudeTopoVrd.php" class="dropdown-item">Études Topographiques et VRD </a>
+                            <a href="suiviChantie.php" class="dropdown-item">Suivi des Chantiers  </a>
+                        </div>
+                    </div>
+                    <a href="secteurActivite.php" class="nav-item nav-link ">Secteurs d'activité </a>
                    
-                    <a href="portfolio.php" class="nav-item nav-link">projets</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Projets</a>
+                        <div class="dropdown-menu">
+                            <a href="portfolio.php" class="dropdown-item">Grands projets réalisés</a>
+                            <a href="projetEnCours.php" class="dropdown-item">Projets en cours </a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Moyens humains et techniques</a>
+                        <div class="dropdown-menu">
+                            <a href="ressourceHumain.php" class="dropdown-item">Effectifs</a>
+                            <a href="ressourceTechnique.php" class="dropdown-item">Moyens techniques </a>
+                           
+                        </div>
+                    </div>
+                   
+         
+
                     
                     <!--<a href="team.php" class="nav-item nav-link">équipe</a>-->
                     
@@ -31,9 +66,7 @@
 
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
-                <div class="ml-auto">
-                    <a class="btn" href="index.php">BEREG</a>
-                </div>
+                
             </div>
         </nav>
     </div>

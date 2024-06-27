@@ -46,10 +46,7 @@
                         <div class="col-12">
                             <h2>Contactez-nous</h2>
                         </div>
-                        <div class="col-12">
-                            <a href="index.php">Home</a>
-                            <a href="contact.php">Contactez-nous</a>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -61,7 +58,7 @@
                 <div class="container">
                     <div class="section-header text-center">
                         
-                        <h2>Pour tout vos questions</h2>
+                        <h2>Direction Générale</h2>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
@@ -69,7 +66,7 @@
                                 <div class="contact-item">
                                     <i class="flaticon-address"></i>
                                     <div class="contact-text">
-                                        <h2>Location</h2>
+                                        <h2>Localisation</h2>
                                         <p>Route Nationale N'5 -Bab Ezzouar ALGER </p>
                                     </div>
                                 </div>
@@ -78,8 +75,11 @@
                                     <div class="contact-text">
                                         <h2>Phone</h2>
                                         <p>023 83 20 86/88/89</p>
+                                        <p>FAX : 023 83 20 91/94</p>
                                     </div>
                                 </div>
+                                
+                               
                                 <div class="contact-item">
                                     <i class="flaticon-send-mail"></i>
                                     <div class="contact-text">
@@ -89,9 +89,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-5">
-                            <div class="w-25">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3802.9675628190103!2d3.1799649258065497!3d36.724919817453994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e51f134281c91%3A0x88d1ec24188bc0f9!2z2YXZg9iq2Kgg2KfZhNiv2LHYp9iz2KfYqiDYp9mE2YfZhtiv2LPZitipIEJFUkVH!5e0!3m2!1sfr!2sdz!4v1716202658869!5m2!1sfr!2sdz" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="col-lg-6 col-md-5 ">
+                            <div class="">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3802.9675628190103!2d3.1799649258065497!3d36.724919817453994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e51f134281c91%3A0x88d1ec24188bc0f9!2z2YXZg9iq2Kgg2KfZhNiv2LHYp9iz2KfYqiDYp9mE2YfZhtiv2LPZitipIEJFUkVH!5e0!3m2!1sfr!2sdz!4v1716202658869!5m2!1sfr!2sdz"
+                                class="w-100" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>
@@ -104,11 +105,32 @@
                 <div class="container">
                     <div class="section-header text-center">
                         
-                        <h2>Contacter Nos Sieges </h2>
+                        <h2>Nos Unités </h2>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
                             <div id="accordion-1">
+                                <div class="card wow fadeInLeft" data-wow-delay="0.1s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseAlger">
+                                            Unité d'Alger
+                                        </a>
+                                    </div>
+                                    <div id="collapseAlger" class="collapse" data-parent="#accordion-1">
+                                        <div class="card-body">
+                                            <div class="footer-contact">
+                                               
+                                                 <p><i class="fa fa-map-marker-alt"></i> Wilaya de Alger  </p>
+                                                
+                                                <p><i class="fa fa-phone-alt"></i> 023 83 20 86</p>
+                                                <p><i class="fa fa-phone-alt"></i> 023 83 20 88</p>
+                                                <p><i class="fa fa-phone-alt"></i> 023 83 20 89</p>
+                                                <p><i class="fa fa-envelope"></i> contact@bereg.dz</p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="card wow fadeInLeft" data-wow-delay="0.1s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne">
@@ -208,19 +230,14 @@
                                 <div class="card wow fadeInRight" data-wow-delay="0.5s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-toggle="collapse" href="#collapseElv">
-                                         Direction Générale  
+                                        Pole de Tizi-Ouzou
                                         </a>
                                     </div>
                                     <div id="collapseElv" class="collapse" data-parent="#accordion-2">
                                         <div class="card-body">
                                             <div class="footer-contact">
-                                                
-                                                <p><i class="fa fa-map-marker-alt"></i> Direction Générale : Route Nationale N'5 -Bab Ezzouar ALGER</p>
-                                                <p><i class="fa fa-phone-alt"></i> 023 83 20 86</p>
-                                                <p><i class="fa fa-phone-alt"></i> 023 83 20 88</p>
-                                                <p><i class="fa fa-phone-alt"></i> 023 83 20 89</p>
-                                                <p><i class="fa fa-envelope"></i> contact@bereg.dz</p>
-                                                
+                                                <p><i class="fa fa-map-marker-alt"></i>  en cours de construction </p>
+                                               
                                             </div>
                                         </div>
                                     </div>
@@ -232,6 +249,7 @@
             </div>
             <!-- contact pole  End -->
 
+             
 
             <!-- Footer Start -->
             <?php include ('incloude/footer.php'); ?>

@@ -2,7 +2,7 @@
  <div class="top-bar">
                 <div class="container-fluid">
                     <div class="row align-items-center">
-                        <div class="col-lg-4 col-md-12">
+                        <div class="col-lg-4 col-md-10">
                             <div class="logo">
                                 <a href="index.php">
                                     <img src="beregLogo.png" alt="BEREG">
@@ -10,42 +10,16 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-8 col-md-7 d-none d-lg-block">
-                            <div class="row">
-                                <div class="col-4">
-                                    <div class="top-bar-item">
-                                        <div class="top-bar-icon">
-                                            <i class="flaticon-calendar"></i>
-                                        </div>
-                                        <div class="top-bar-text">
-                                            <h3>Heure de travail</h3>
-                                            <p>Dim - Jeu, 8:30 - 4:30</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="top-bar-item">
-                                        <div class="top-bar-icon">
-                                            <i class="flaticon-call"></i>
-                                        </div>
-                                        <div class="top-bar-text">
-                                            <h3>Contacter nous </h3>
-                                            <p>023 83 20 86</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="top-bar-item">
-                                        <div class="top-bar-icon">
-                                            <i class="flaticon-send-mail"></i>
-                                        </div>
-                                        <div class="top-bar-text">
-                                            <h3>Notre Email </h3>
-                                            <p>contact@bereg.dz</p>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="col-lg-5 col-md-10 d-none d-lg-block">
+                            <div class="text-center">
+                             
+                                <p class="mb-0 mt-0" > Ministre de l'Habitat, de l'Urbanisme et de la Ville </p>
+                                <a class="mb-0"  href="https://gee.dz/">  Groupe Etudes & Engineering </a>
+                                <h6 class="mb-0 mt-0" >Bureau d'Etudes de Recherches et d'Engineering Général</h6>
+                                <a class="mb-0"  >مكتب الدراسات و الابحاث و الاعمال الهندسية العامة</a>
                             </div>
+                            
+                            
                         </div>
                     </div>
                 </div>

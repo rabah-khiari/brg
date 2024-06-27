@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>BEREG -Projet</title>
+        <title>BEREG -À propos</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
@@ -29,7 +29,8 @@
 
     <body>
         <div class="wrapper">
-           <!-- Top Bar Start -->
+ 
+             <!-- Top Bar Start -->
            <?php include ('incloude/topBare.php'); ?>
             <!-- Top Bar End -->
 
@@ -38,36 +39,47 @@
             <?php include ('incloude/navBare.php'); ?>
             <!-- Nav Bar End -->
             
-            
             <!-- Page Header Start -->
             <div class="page-header">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2>Nos projets</h2>
-                            <h3> Le BEREG a réalisée depuis sa création plus de 1000 projets en étude et suivi </h3>
+                                 
+                            <h2> Suivi des chantiers </h2>
+                          
                         </div>
-                        
-                        
+
                     </div>
                 </div>
             </div>
             <!-- Page Header End -->
 
-            
-            <!-- projectSipari Start -->
-            <?php include ('incloude/projetSipare.php'); ?>
-            <!-- projectSipari End -->
+            <!-- About Start -->
+            <div class="about wow fadeInUp shadow " data-wow-delay="0.1s">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-md-5 col-sm-11">
+                            <div class="about-img">
+                                <img src="img/services/service-5.jpg" alt="Image">
+                            </div>
 
-             <!-- project Start -->
-             <?php //include ('incloude/projects.php'); ?>
-            <!-- projects End -->
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-11">
+                            
+                            <div class="about-text">
+                                <p>Dans le cadre de projets de suivi, le BEREG, par le biais de ses architectes, ingénieurs et techniciens, dûment qualifiés, assurent pour le compte des maîtres d’ouvrage, le suivi d’exécution des réalisations des projets qui lui sont confiés par ces derniers. A ce titre, il garantit le bon déroulement des travaux de construction et ce en respectant les étapes suivantes :</p>
 
-           
-            <!-- Atestation Start -->
-            <?php //include ('incloude/atestation.php'); ?>
-            <!-- atestation End -->
-            
+                                    <p class="col-8 ms-4"> 1. Établissement d’un planning de chantier en identifiant les travaux et en structurant les tâches. </p> 
+                                    <p class="col-8 ps-4"> 2. Mobilisation des ressources nécessaires pour chaque étape des travaux.  </p>
+                                    <p class="col-8 ps-4"> 3. Communication avec les différentes parties prenantes notamment  avec les conducteurs de travaux et ce en tenant des réunions de chantier à l’effet de faire le point.  </p>
+                                    <p class="col-8 ps-4"> 4. S’assurer du respect des normes techniques, le respect des cahiers des charges, les délais ainsi que les normes d’environnement et de sécurité et ce tout au long du chantier.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
 
             <!-- Footer Start -->
             <?php include ('incloude/footer.php'); ?>

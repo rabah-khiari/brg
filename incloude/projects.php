@@ -55,7 +55,7 @@
                                     <p>In<a href="">Construction</a></p>
                                 </div>
                                 <div class="blog-text">
-                                    <p>REALISATION de E C N de BECHAR</p>
+                                    <p>Etude et suivi de la realisation de E C N de BECHAR</p>
                                 </div>
                             </div>
                         </div>

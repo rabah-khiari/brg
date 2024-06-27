@@ -51,9 +51,7 @@
                         <img src="img/carousel-1.jpg" alt="Carousel Image">
                         
                         <div class="carousel-caption">
-                            <p class="animated fadeInLeft"> Bureau d'Etudes de Recherches et d'Engineering Général
-                                <br> مكتب الدراسات و الابحاث و الاعمال الهندسية العامة 
-                            </p>
+                            
                            
                             <h1 class="animated fadeInLeft">BEREG </h1>
                             <p class="animated fadeInRight">bâtir l'avenir</p>
@@ -61,15 +59,19 @@
                             <!--<a class="btn animated fadeInUp" href="https://htmlcodex.com/construction-company-website-template">Get A Quote</a>-->
                         </div>
                     </div>
-
-                    <div class="carousel-item">
-                        <img src="img/carousel-2.jpg" alt="Carousel Image">
+                    <div class="carousel-item ">
+                        <img src="img/carousel-4.jpg" alt="Carousel Image">
+                        
                         <div class="carousel-caption">
-                            <p class="animated fadeInRight"> </p>
-                            <h1 class="animated fadeInLeft"> </h1>
-                            <!-- <a class="btn animated fadeInUp" href="https://htmlcodex.com/construction-company-website-template">Get A Quote</a>-->
+                            
+                           
+                            <h1 class="animated fadeInLeft"> Nous donnons vie à vos projets</h1>
+                            
+                            <!--<a class="btn animated fadeInUp" href="https://htmlcodex.com/construction-company-website-template">Get A Quote</a>-->
                         </div>
                     </div>
+
+                    
 
                     <div class="carousel-item">
                         <img src="img/carousel-3.jpg" alt="Carousel Image">
@@ -103,8 +105,8 @@
                                     <i class="flaticon-worker"></i>
                                 </div>
                                 <div class="feature-text">
-                                    <h3>EMPLOYÉS EXPÉRIMENTÉ</h3>
-                                    <p>Les employés expérimentés apportent une richesse de connaissances et de compétences précieuses qui renforcent l'efficacité et la compétitivité de l'entreprise.</p>
+                                    <h3>Expérience avérée </h3>
+                                    <p>Les 56 années d’existence du BEREG, lui ont permis d’acquérir une expérience indéniable et une notoriété dans le domaine des études d’ingénierie, de conception et d’architecture des ouvrages, tout type confondu, ainsi que le contrôle et le suivi des réalisations de ces derniers.</p>
                                 </div>
                             </div>
                         </div>
@@ -114,8 +116,8 @@
                                     <i class="flaticon-building"></i>
                                 </div>
                                 <div class="feature-text">
-                                    <h3>travail qualité</h3>
-                                    <p>travail de qualité repose sur la rigueur, l'attention aux détails et le souci constant de satisfaire les exigences du client.</p>
+                                    <h3>Personnel qualifié </h3>
+                                    <p>Pour la réalisation des études et du suivi des projets acquis, le BEREG dispose d’un personnel technique qualifié doté de compétences avérées multidisciplinaires. Ces dernières permettent, à ce personnel, d’atteindre des performances optimales en termes de qualité et de délais.</p>
                                 </div>
                             </div>
                         </div>
@@ -125,8 +127,8 @@
                                     <i class="flaticon-call"></i>
                                 </div>
                                 <div class="feature-text">
-                                    <h3>Bon Support</h3>
-                                    <p>Un bon support assure que chaque membre de l'équipe dispose des ressources et de l'assistance nécessaires pour atteindre ses objectifs efficacement</p>
+                                    <h3>Formation continue</h3>
+                                    <p>Outre les exigences académiques et professionnelles au recrutement, le personnel du BEREG, et en particulier, le personnel technique, bénéficie dans le cadre de la formation continue des formations courtes, recyclages et séminaires voire de formations diplômantes telle que la formation BIM </p>
                                 </div>
                             </div>
                         </div>
@@ -136,57 +138,33 @@
             <!-- Feature End-->
 
 
-            <!-- About Start -->
-            <div class="about wow fadeInUp" data-wow-delay="0.1s">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-5 col-md-6">
-                            <div class="about-img">
-                                <img src="img/beregIso.jpg" alt="Image">
-                            </div>
-                        </div>
-                        <div class="col-lg-7 col-md-6">
-                            <div class="section-header text-left">
-                                <p>bienvenue chez bereg : 56 ans d'expérience</p>
-                                <h2>Certificats ISO 9001 </h2>
-                            </div>
-                            <div class="about-text">
-                                <p>
-                                Le palmarès du BEREG s’est aussi enrichi par l’obtention du Certificat de son Système de management de la qualité ISO 9001 version 2015 octroyé à l’entreprise en reconnaissance de son travail en matière d’organisation et de qualité des prestations fournies. Cependant, la plus grande fierté de l’entreprise est sans conteste.
-                                </p>
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- About End -->
+            
 
 
-            <!-- Fact Start -->
-            <?php include ('incloude/fact.php'); ?>
-            <!-- Fact End -->
+           
 
             <!-- About Start -->
             <div class="about wow fadeInUp" data-wow-delay="0.1s">
                 <div class="container">
                 <div class="section-header text-center">
 
-                        <h2>Nos Sieges </h2>
+                        <h2>Nos Unités </h2>
                     </div>
                  
                     <div class="row align-items-center">
                 
-                        <div class="col-lg-5 col-md-6">
+                        <div class="col-lg-8 col-md-6">
                             <div class="about-img">
-                                <img style=" width: 150%; height: 150%;" src="img/DZmaps.jpg" alt="Image">
+                                <img style=" width: 100%; height: 100%;" src="img/DZmaps.jpg" alt="Image">
                             </div>
                         </div>
 
-                        <div class="col-lg-7 col-md-6">
-                            <div style="margin-left: 200px;" class="about-text">
+                        <div class="col-lg-4 col-md-6">
+                            <div  class="about-text">
                                     <h5>Direction Générale <span style="font-weight: bold;font-size: 20px;"> ALGER -Bab Ezzouar </span></h5>
+                                    <p> Unité siège  <span style="font-weight: bold;font-size: 20px;">  Alger</span></p>
                                    <p> Pôle de<span style="font-weight: bold;font-size: 20px;"> Telemcen </span></p>
+
                                    <p> Pôle de<span style="font-weight: bold;font-size: 20px;"> Tizi-Ouzou </span></p>
                                    <p> Pôle de<span style="font-weight: bold;font-size: 20px;"> Setif </span></p>
                                    <p> Pôle de<span style="font-weight: bold;font-size: 20px;"> Adrar </span></p>
@@ -207,7 +185,7 @@
             <!-- blog Start -->
             <?php include ('incloude/blog.php'); ?>
             <!-- blog End -->
-
+            
 
             <!-- Footer Start -->
             <?php include ('incloude/footer.php'); ?>

@@ -3,7 +3,7 @@
                 <div class="container">
                     <div class="section-header text-center">
                         
-                        <h5>intervient dans les secteurs suivants </h5>
+                      <h5>Le B.E.R.E.G intervient dans les secteurs suivants </h5>
                     </div>
                     <div class="  row">
                         <div class="col-md-11">
@@ -30,7 +30,7 @@
                                 <div class="card wow fadeInLeft shadow" data-wow-delay="0.2s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-toggle="collapse" href="#collapseTwoe">
-                                        Equipements
+                                        Equipements et infrastructures
 
                                         </a>
                                     </div>
@@ -98,6 +98,13 @@
             <p>- Réserves pour produits pharmaceutiques </p>
             <p>- Laboratoires de recherche.</p>
         </td>
+      </tr>
+      <tr>
+        <td> Autres </td>
+        <td>  
+            <p>- Mosquées </p>
+        </td>
+      </tr>
       
     </tbody>
   </table>

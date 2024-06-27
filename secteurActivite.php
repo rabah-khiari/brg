@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>BEREG -Projet</title>
+        <title>BEREG -Service </title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
@@ -25,12 +25,12 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
-    </head>
+    </head> 
 
     <body>
         <div class="wrapper">
-           <!-- Top Bar Start -->
-           <?php include ('incloude/topBare.php'); ?>
+            <!-- Top Bar Start -->
+            <?php include ('incloude/topBare.php'); ?>
             <!-- Top Bar End -->
 
             <!-- Nav Bar Start -->
@@ -44,33 +44,24 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2>Nos projets</h2>
-                            <h3> Le BEREG a réalisée depuis sa création plus de 1000 projets en étude et suivi </h3>
+                            <h2> Secteurs d'activité </h2>
                         </div>
-                        
-                        
+
                     </div>
                 </div>
             </div>
             <!-- Page Header End -->
 
-            
-            <!-- projectSipari Start -->
-            <?php include ('incloude/projetSipare.php'); ?>
-            <!-- projectSipari End -->
 
-             <!-- project Start -->
-             <?php //include ('incloude/projects.php'); ?>
-            <!-- projects End -->
+          
+            <!-- Footer Start -->
+              <?php include ('incloude/secteur.php'); ?> 
+            <!-- Footer End -->
 
-           
-            <!-- Atestation Start -->
-            <?php //include ('incloude/atestation.php'); ?>
-            <!-- atestation End -->
-            
+
 
             <!-- Footer Start -->
-            <?php include ('incloude/footer.php'); ?>
+            <?php include ('incloude/footer.php'); ?> 
             <!-- Footer End -->
 
             <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>

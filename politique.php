@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>BEREG -Projet</title>
+        <title>BEREG -À propos</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
@@ -29,7 +29,8 @@
 
     <body>
         <div class="wrapper">
-           <!-- Top Bar Start -->
+ 
+             <!-- Top Bar Start -->
            <?php include ('incloude/topBare.php'); ?>
             <!-- Top Bar End -->
 
@@ -38,37 +39,67 @@
             <?php include ('incloude/navBare.php'); ?>
             <!-- Nav Bar End -->
             
-            
             <!-- Page Header Start -->
             <div class="page-header">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2>Nos projets</h2>
-                            <h3> Le BEREG a réalisée depuis sa création plus de 1000 projets en étude et suivi </h3>
+                                 <h2>Politique qualité</h2>
+                            <h3> Système Management Qualité </h>
+                            
                         </div>
-                        
-                        
+                    
                     </div>
                 </div>
             </div>
             <!-- Page Header End -->
 
+            <!-- qualité Start -->
+            <div class="about wow fadeInUp shadow " data-wow-delay="0.1s">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-md-6">
+                            <div class="about-img shadow">
+                                <img src="img/beregIso.jpg" alt="Image">
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-7 col-md-6">
+                            
+                            <div class="about-text">
+                                <p>
+                                A l’instar de la quasi majorité des entreprises nationales et internationales, le BEREG, pour garantir la qualité de ses produits et services, a adopté le système management de la qualité (SMQ) ISO 9001 version d’abord 2008 ensuite version 2015 à compter de 2018.</p>
+                                <br/>
+                                Cette démarche a contribué à renforcer la confiance de ses clients et à favoriser la culture d’amélioration continue dans un environnement économique de plus en plus exigeant et concurrentiel, incitant les entreprises à innover et à offrir les meilleures prestations possibles.
+                                </p>
+                                <br/>
+                                <p>
+                                 A travers les processus du système management qualité, le BEREG peut désormais mesurer plusieurs indicateurs de performance parmi lesquels la satisfaction clients qui a atteint un taux appréciable en fin 2023 puisqu’il se situe à 86%.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- qualité End -->
+        
+             
+            <!-- qualite Start -->
+            <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                <div class="container">
+                    <div class=" align-items-center">
+                        <div class="col-lg-12 col-md-10">
+                            <div class="about-img">
+                                <img src="img/qualiti.jpg" alt="Image">
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+            <!-- qualite End -->
             
-            <!-- projectSipari Start -->
-            <?php include ('incloude/projetSipare.php'); ?>
-            <!-- projectSipari End -->
-
-             <!-- project Start -->
-             <?php //include ('incloude/projects.php'); ?>
-            <!-- projects End -->
-
-           
-            <!-- Atestation Start -->
-            <?php //include ('incloude/atestation.php'); ?>
-            <!-- atestation End -->
-            
-
             <!-- Footer Start -->
             <?php include ('incloude/footer.php'); ?>
             <!-- Footer End -->

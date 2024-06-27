@@ -168,14 +168,14 @@ a:focus {
     top: 0;
     width: 100%;
     max-width: 1666px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     z-index: 999;
 }
 
 .nav-bar .navbar {
     width: 100%;
     height: 100%;
-    background: #030f27 !important;
+    background: #3D81BE !important;
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -197,6 +197,12 @@ a:focus {
     border: 0;
     border-radius: 0;
     background: #f8f9fa;
+}
+
+.nav-bar .dropdown-item:hover{
+    
+    font-weight: bold;
+    color: #ddc335d8;
 }
 
 .nav-bar .btn {
@@ -502,7 +508,7 @@ a:focus {
 }
 
 .feature .col-md-12 {
-    background: #030f27;
+    background: #3D81BE;
 }
     
 .feature .col-md-12:nth-child(2n) {
@@ -545,7 +551,7 @@ a:focus {
     height: 79px;
     top: -18px;
     left: -9px;
-    background: #030f27;
+    background: #3D81BE;
     border-radius: 60px;
     z-index: 2;
 }
@@ -557,7 +563,7 @@ a:focus {
 .feature .feature-icon [class^="flaticon-"]::before {
     position: relative;
     margin: 0;
-    color: #f3d739;
+    color: #eae9e2;
     font-size: 60px;
     line-height: 60px;
     z-index: 3;
@@ -569,14 +575,14 @@ a:focus {
 
 .feature .feature-text h3 {
     margin: 0 0 10px 0;
-    color: #f3d739;
+    color: #ffffff;
     font-size: 25px;
     font-weight: 600;
 }
 
 .feature .feature-text p {
     margin: 0;
-    color: #f3d739;
+    color: #ffffff;
     font-size: 18px;
     font-weight: 400;
 }
@@ -1801,9 +1807,9 @@ a:focus {
     cursor: pointer;
     display: inline-block;
     margin: 5px;
-    padding: 8px 15px;
+    padding: 10px 25px;
     color: #030f27;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 500;
     text-transform: uppercase;
     border-radius: 0;
@@ -1900,6 +1906,7 @@ a:focus {
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+
 
 .portfolio .portfolio-warp a.btn {
     width: 60px;
@@ -2060,7 +2067,7 @@ a:focus {
     position: relative;
     margin-top: 45px;
     padding-top: 90px;
-    background: #030f27;
+    background: #3D81BE;
     color: #ffffff;
 }
 

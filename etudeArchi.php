@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>BEREG -Projet</title>
+        <title>BEREG -À propos</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
@@ -29,7 +29,8 @@
 
     <body>
         <div class="wrapper">
-           <!-- Top Bar Start -->
+ 
+             <!-- Top Bar Start -->
            <?php include ('incloude/topBare.php'); ?>
             <!-- Top Bar End -->
 
@@ -38,36 +39,59 @@
             <?php include ('incloude/navBare.php'); ?>
             <!-- Nav Bar End -->
             
-            
             <!-- Page Header Start -->
             <div class="page-header">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2>Nos projets</h2>
-                            <h3> Le BEREG a réalisée depuis sa création plus de 1000 projets en étude et suivi </h3>
+                                 
+                            <h2> Etudes architecturales </h2>
+                          
+                            
                         </div>
-                        
-                        
+                    
                     </div>
                 </div>
             </div>
             <!-- Page Header End -->
 
+
+            <!-- About Start -->
+            <div class="about wow fadeInUp shadow " data-wow-delay="0.1s">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-md-6">
+                            <div class="about-img">
+                                <img src="img/services/service-1.jpg" alt="Image">
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-7 col-md-6">
+                            
+                            <div class="about-text">
+                                <p>L’étude architecturale est une étape importante dans le processus de conception et de construction d’un bâtiment. Elle consiste à élaborer un projet de construction en prenant en compte de nombreux paramètres, tels que l’aspect esthétique, l’optimisation des espaces, les contraintes techniques et réglementaires, les caractéristiques géotechniques …etc.</p>
+                                <p>
+                                L’étude architecturale peut également inclure la réalisation de maquettes, de dessins en 3D et de simulations de l’environnement futur de l’ouvrage. </p>
+                               
+                                <p>
+                                Elle donne, par conséquent, au maître d’ouvrage, un aperçu virtuel sur la fonctionnalité de la construction, sur les normes de sécurité à respecter, sur la qualité de vie procurée par l’ouvrage et sur l’aspect économique et environnemental de l’ouvrage.</p>
+                                <p>
+                                A ce titre, le BEREG, à travers ses expériences cumulées tout au long des années de son existence, offre ses compétences en la matière et assure des prestations à la hauteur des exigences les plus élevés
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
             
-            <!-- projectSipari Start -->
-            <?php include ('incloude/projetSipare.php'); ?>
-            <!-- projectSipari End -->
-
-             <!-- project Start -->
-             <?php //include ('incloude/projects.php'); ?>
-            <!-- projects End -->
-
            
-            <!-- Atestation Start -->
-            <?php //include ('incloude/atestation.php'); ?>
-            <!-- atestation End -->
             
+           
+            
+          
 
             <!-- Footer Start -->
             <?php include ('incloude/footer.php'); ?>
