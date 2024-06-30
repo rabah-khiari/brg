@@ -103,7 +103,7 @@
                                 <div class="card wow fadeInLeft shadow" data-wow-delay="0.1s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-toggle="collapse" href="#collapsetwo">
-                                        Matériels de repographie 
+                                        Matériels de Repographie 
                                         </a>
                                     </div>
                                     <div id="collapsetwo" class="collapse" data-parent="#accordion-1">
