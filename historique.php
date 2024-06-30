@@ -77,7 +77,7 @@
                                 <p>
                                 Le B.E.R.E.G a été créé en 1968 pour servir d’outil d’étude et de suivi de la réalisation des programmes de construction lancés par l’état Algérien et inscrits dans ses différents plans économiques. Il est issu de la prestigieuse Direction Nationale de Construction (DNC).
                                 Il a ensuite été restructuré et agrée par le Décret Présidentiel N° 82-73 du 20/02/82. <br>
-                                Après avoir fait partie du portefeuille du Groupe INJACO, relevant de la SGP/INDJAB, il a été rattaché directement rattaché à la SGP INJAB (Société de Gestion des Participations).
+                                Après avoir fait partie du portefeuille du Groupe INJACO, relevant de la SGP/INDJAB, il a été directement rattaché à la SGP INJAB (Société de Gestion des Participations).
                                 
                                 </p>
                                 <br/>
@@ -101,8 +101,8 @@
                                 </p>
                                 <br/>
                                 <p>
-                                Dans son élan de développement, le BEREG s’est fait délivré le Certificat de son Système de management de la qualité ISO 9001, d’abord sous version 2008 ensuite sous la version 2015. L’obtention de ce certificat constitue une reconnaissance de son travail en matière d’organisation et de la qualité des prestations fournies. 
-                                <br>
+                               
+                               
                                 Par ailleurs, la plus grande fierté de l’entreprise est, sans conteste, la Reconnaissance du Mérite National, distinction que lui a été décernée par Monsieur Le Président de la République pour services rendus à la Nation.
                                 </p>
 

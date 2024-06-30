@@ -69,7 +69,7 @@
                         <div class="fact-text col-lg-8 col-md-6 col-sm-12">
 
                             <h1 style="color: #3A3A3A ;" data-toggle="counter-up"> 110</h1>
-                            <h1 style="color: #3A3A3A ;"> Technique</h1>
+                            <h1 style="color: #3A3A3A ;"> Personnel Technique</h1>
                         </div>
 
             </div>
@@ -82,7 +82,7 @@
                         </div>
                         <div class="fact-text  col-lg-8 col-md-6 col-sm-12"> 
                             <h1  style="color: #f3d009;" data-toggle="counter-up">56</h1>
-                            <h1  style="color: #f3d009;"> administratifs </h1>
+                            <h1  style="color: #f3d009;"> Personnel administratif </h1>
                         </div>
             </div>
         </div>
