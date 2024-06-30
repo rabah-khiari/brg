@@ -58,15 +58,15 @@
  <br>
 <div class="row  ">
     <br><br>
-    <div class="container ps-1 col-lg-4 col-md-4 col-sm-12 ">
+    <div class="container ps-1 col-lg-7 col-md-10 col-sm-12 ">
         
         <br><br>
         <div class=" mt-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="row col-lg-11 col-md-12 col-sm-12">
-                        <div class="fact-icon col-lg-4 col-md-6 col-sm-12">
+                        <div class="fact-icon col-lg-3 col-md-4 col-sm-12 ">
                             <img style="width:120px;" src="img/icon/tech.JPG" alt="Ressources Humaines" class="logo">
                         </div>
-                        <div class="fact-text col-lg-8 col-md-6 col-sm-12">
+                        <div class="fact-text col-lg-9 col-md-8 col-sm-12 ">
 
                             <h1 style="color: #3A3A3A ;" data-toggle="counter-up"> 110</h1>
                             <h1 style="color: #3A3A3A ;"> Personnel Technique</h1>
@@ -77,12 +77,12 @@
         <br>
         <div class="container mt-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="row col-lg-11 col-md-12 col-sm-12">
-                        <div class="fact-icon   col-lg-4 col-md-6 col-sm-12 ">
+                        <div class="fact-icon   col-lg-3 col-md-4 col-sm-12 ">
                             <img style="width:80px;" src="img/icon/administration.JPG" alt="Ressources Humaines" class="logo">
                         </div>
-                        <div class="fact-text  col-lg-8 col-md-6 col-sm-12"> 
+                        <div class="fact-text  col-lg-9 col-md-8 col-sm-12 "> 
                             <h1  style="color: #f3d009;" data-toggle="counter-up">56</h1>
-                            <h1  style="color: #f3d009;"> Personnel administratif </h1>
+                            <h1  style="color: #f3d009;">Personnel Administratif </h1>
                         </div>
             </div>
         </div>
