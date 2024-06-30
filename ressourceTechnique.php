@@ -86,7 +86,7 @@
                                 <div class="card wow fadeInLeft shadow" data-wow-delay="0.1s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-toggle="collapse" href="#collapsetree">
-                                        MATERIELS DE TOPOFRAPHIE 
+                                        Materiels de Topographie 
                                         </a>
                                     </div>
                                     <div id="collapsetree" class="collapse" data-parent="#accordion-1">
