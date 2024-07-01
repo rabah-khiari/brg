@@ -73,7 +73,7 @@
                                 <p>Les études de génie civil s’occupent de la conception, la réalisation, l’exploitation et la réhabilitation d’ouvrages de construction d’infrastructure et ce tout en assurant la sécurité du public et la protection de l’environnement. </p>
                                
                                 <p>Ces études font appel dans leurs  réalisations aux études de structures (béton armé et charpente métallique), aux études géotechniques, aux études d’hydraulique et à celles relatives à l’environnement.</p>
-                                 <p>Le BEREG de par les compétences de ses ingénieurs qualifiés dont le savoir-faire et les compétences sont avérées, peut réaliser les études de génie civil quelle que soit la nature et l’envergure des ouvrage dont il a la charge.</p>
+                                 <p>Le BEREG de par les compétences de ses ingénieurs qualifiés dont le savoir-faire et les compétences sont avérées, peut réaliser les études de génie civil quelle que soit la nature et l’envergure des ouvrages dont il a la charge.</p>
                                 
                             </div>
                         </div>
