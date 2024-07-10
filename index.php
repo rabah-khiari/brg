@@ -54,7 +54,7 @@
                             
                            
                             <h1 class="animated fadeInLeft">BEREG </h1>
-                            <p class="animated fadeInRight">bâtir l'avenir</p>
+                            <p class="animated fadeInRight">Bâtir l'avenir</p>
                             
                             <!--<a class="btn animated fadeInUp" href="https://htmlcodex.com/construction-company-website-template">Get A Quote</a>-->
                         </div>
