@@ -75,6 +75,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- make this in comment  
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
                             <div class="portfolio-warp">
                                 <div class="portfolio-img">
@@ -89,6 +90,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second wow fadeInUp" data-wow-delay="0.2s">
                             <div class="portfolio-warp">
                                 <div class="portfolio-img">
@@ -104,7 +106,7 @@
                                     <a class="btn" href="img/projet/ECNblida.jpg" data-lightbox="portfolio">+</a>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
                             <div class="portfolio-warp">
                                 <div class="portfolio-img">
@@ -154,6 +156,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- make this in comment  
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second wow fadeInUp" data-wow-delay="0.6s">
                             <div class="portfolio-warp">
                                 <div class="portfolio-img">
@@ -171,7 +174,8 @@
                                     <a class="btn" href="img/projet/kolea.jpg" data-lightbox="portfolio">+</a>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
+
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second wow fadeInUp" data-wow-delay="0.6s">
                             <div class="portfolio-warp">
                                 <div class="portfolio-img">
