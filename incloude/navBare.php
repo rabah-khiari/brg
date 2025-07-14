@@ -65,6 +65,13 @@
                     -->
 
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
+                    <a href="contact.php" class="nav-item nav-link"> - </a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Appel d’Offres</a>
+                        <div class="dropdown-menu">
+                            <a href="AppeldOffres1.php" class="dropdown-item">Ministère de l'Habitat</a>
+                        </div>
+                    </div>
                 </div>
                 
             </div>
