@@ -13,7 +13,7 @@
                         <div class="col-lg-5 col-md-10 d-none d-lg-block">
                             <div class="text-center">
                              
-                                <p class="mb-0 mt-0" > Ministre de l'Habitat, de l'Urbanisme et de la Ville </p>
+                                <p class="mb-0 mt-0" > Ministre de l'Habitat, de l'Urbanisme et de la Ville et de l'Aménagement du Territoire </p>
                                 <a class="mb-0"  href="https://gee.dz/">  Groupe Etudes & Engineering </a>
                                 <h6 class="mb-0 mt-0" >Bureau d'Etudes de Recherches et d'Engineering Général</h6>
                                 <a class="mb-0"  >مكتب الدراسات و الابحاث و الاعمال الهندسية العامة</a>
