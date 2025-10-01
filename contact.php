@@ -74,8 +74,8 @@
                                     <i class="flaticon-call"></i>
                                     <div class="contact-text">
                                         <h2>Phone</h2>
-                                        <p>023 83 20 86/88/89</p>
-                                        <p>FAX : 023 83 20 91/94</p>
+                                        <p>020 41 60 14 - 020 41 60 15</p>
+                                        <p>FAX : 020 41 60 16</p>
                                     </div>
                                 </div>
                                 
@@ -122,9 +122,9 @@
                                                
                                                  <p><i class="fa fa-map-marker-alt"></i> Wilaya de Alger  </p>
                                                 
-                                                <p><i class="fa fa-phone-alt"></i> 023 83 20 86</p>
-                                                <p><i class="fa fa-phone-alt"></i> 023 83 20 88</p>
-                                                <p><i class="fa fa-phone-alt"></i> 023 83 20 89</p>
+                                                <p><i class="fa fa-phone-alt"></i> 020 41 60 14</p>
+                                                <p><i class="fa fa-phone-alt"></i> 020 41 60 15</p>
+                                                <p><i class="fa fa-envelope"></i> FAX: 020 41 60 16</p>
                                                 <p><i class="fa fa-envelope"></i> contact@bereg.dz</p>
                                                 
                                             </div>
