@@ -44,7 +44,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                                 <h2>Le B.E.R.E.G dispose de 166 travailleurs dont </h2>
+                                 <h2>Le B.E.R.E.G dispose de 210 travailleurs dont </h2>
                           
                         </div>
                     
@@ -68,7 +68,7 @@
                         </div>
                         <div class="fact-text col-lg-9 col-md-8 col-sm-12 ">
 
-                            <h1 style="color: #3A3A3A ;" data-toggle="counter-up"> 112</h1>
+                            <h1 style="color: #3A3A3A ;" data-toggle="counter-up"> 145</h1>
                             <h1 style="color: #3A3A3A ;"> Personnel Technique</h1>
                         </div>
 
@@ -81,7 +81,7 @@
                             <img style="width:80px;" src="img/icon/administration.JPG" alt="Ressources Humaines" class="logo">
                         </div>
                         <div class="fact-text  col-lg-9 col-md-8 col-sm-12 "> 
-                            <h1  style="color: #f3d009;" data-toggle="counter-up">64</h1>
+                            <h1  style="color: #f3d009;" data-toggle="counter-up">65</h1>
                             <h1  style="color: #f3d009;">Personnel Administratif </h1>
                         </div>
             </div>
@@ -119,7 +119,7 @@
                             <img style="width:90px;" src="img/icon/gc.jpg" alt="Ressources Humaines" class="logo">
                         </div>
                         <div class="fact-text col-lg-8"> 
-                            <h2  style="color: #F4A261;" data-toggle="counter-up">37</h2>
+                            <h2  style="color: #F4A261;" data-toggle="counter-up">55</h2>
                             <h2  style="color: #F4A261;"> Ingénieurs GC </h2>
                         </div>
             </div>
@@ -132,7 +132,7 @@
                         </div>
                         <div class="fact-text col-lg-9 col-md-6 col-sm-12">
                             
-                            <h2 style="color: #A4D3A2 ;" data-toggle="counter-up">31</h2>
+                            <h2 style="color: #A4D3A2 ;" data-toggle="counter-up">34</h2>
                             <h2 style="color: #A4D3A2 ;"> Techniciens et Techniciens Supérieurs</h2>
                         </div>
             </div>
@@ -157,7 +157,7 @@
                         </div>
                         <div class="fact-text">
                            
-                            <h2 style="color: #f3d009 ;" data-toggle="counter-up">33</h2>
+                            <h2 style="color: #f3d009 ;" data-toggle="counter-up">40</h2>
                             <h2 style="color: #f3d009 ;" >Architects</h2>
                         </div>
             </div>
@@ -171,7 +171,7 @@
                         </div>
                         <div class="fact-text">
                             
-                            <h2  style="color: #88B7E3;" data-toggle="counter-up">11</h2>
+                            <h2  style="color: #88B7E3;" data-toggle="counter-up">16</h2>
                             <h2  style="color: #88B7E3;" > Ingénieurs TCE</h2>
                         </div>
             </div>
