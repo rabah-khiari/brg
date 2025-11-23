@@ -1,42 +1,3 @@
-<?php
-// Allowed languages
-$allowed_langs = ['fr', 'en'];
-
-// Read GET and COOKIE safely
-$get_lang = filter_input(INPUT_GET, 'lang', FILTER_SANITIZE_STRING);
-$cookie_lang = $_COOKIE['lang'] ?? null;
-
-// 1️⃣ Check if GET param is valid
-if ($get_lang && in_array($get_lang, $allowed_langs, true)) {
-    $language = $get_lang;
-
-    // Save choice in cookie for 30 days
-    setcookie('lang', $language, [
-        'expires' => time() + 3600 * 24 * 30,
-        'path' => '/',
-        'httponly' => true,
-        // 'secure' => true, // uncomment if HTTPS
-        // 'samesite' => 'Lax'
-    ]);
-}
-
-// 2️⃣ If no valid GET, use valid COOKIE
-elseif ($cookie_lang && in_array($cookie_lang, $allowed_langs, true)) {
-    $language = $cookie_lang;
-}
-
-// 3️⃣ Otherwise fallback to default French
-else {
-    $language = 'fr';
-}
-
-// 4️⃣ If someone injected invalid ?lang= value, clean the URL
-if (isset($_GET['lang']) && !in_array($_GET['lang'], $allowed_langs, true)) {
-    $url = strtok($_SERVER["REQUEST_URI"], '?'); // Remove ?lang=
-    header("Location: $url");
-    exit;
-}
-?>
 <!-- Nav Bar Start -->
 <div class="nav-bar">
     <div class="container-fluid">
@@ -48,7 +9,7 @@ if (isset($_GET['lang']) && !in_array($_GET['lang'], $allowed_langs, true)) {
 
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav mr-auto">
-                    <a href="index.php" class="nav-item nav-link ">Accueil </a>
+                    <a href="index.php" class="nav-item nav-link ">Welcom </a>
                     
                     <div class="nav-item dropdown">
                         <a href="about.php" class="nav-link dropdown-toggle" data-toggle="dropdown">à propos du BEREG</a>
@@ -104,30 +65,16 @@ if (isset($_GET['lang']) && !in_array($_GET['lang'], $allowed_langs, true)) {
                     -->
 
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
-                    
+                    <a href="index.php" class="nav-item nav-link">Français</a>
                     
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Appel d’Offres </a>
                         <div class="dropdown-menu">
                             <a href="AppeldOffres1.php" class="dropdown-item">Ministère de l'Habitat</a>
                             <a href="AppeldOffres2.php" class="dropdown-item">N°01/BEREG EPE-SPA/2025</a>
-                            <a href="AppeldOffres3.php" class="dropdown-item">Avis d'Infructuosité</a>
                         </div>
                        
                     </div>
-                    <?php
-                        $language = $_GET['lang'] ?? $_COOKIE['lang'] ?? 'fr'; // default French
-
-                        // save language choice in cookie for next pages
-                        setcookie('lang', $language, time() + 3600 * 24 * 30, '/'); // 30 days
-
-                        ?>
-                        <!-- language -->
-                    <?php if ($language == 'fr'): ?>
-                        <!-- <a class="nav-item nav-link" href="?lang=en"><i class="fa fa-language" aria-hidden="true"></i> Englais</a> -->
-                    <?php else: ?>
-                        <!-- <a class="nav-item nav-link" href="?lang=fr"><i class="fa fa-language" aria-hidden="true"></i> Français</a> -->
-                    <?php endif; ?>
                 </div>
                 
             </div>

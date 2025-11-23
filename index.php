@@ -27,6 +27,7 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
 
+
     <body>
         <div class="wrapper">
            <!-- Top Bar Start -->
@@ -38,6 +39,96 @@
             <?php include ('incloude/navBare.php'); ?>
             <!-- Nav Bar End -->
            
+<?php
+
+// text dictionary
+$text = [
+  'Bâtir lavenir' => [
+    'fr' => "Bâtir l'avenir",
+    'en' => "Build the Future"
+  ],
+  'Nous donnons vie à vos projets' => [
+    'fr' => 'Nous donnons vie à vos projets',
+    'en' => 'We Bring Your Projects to Life'
+  ],
+  'Votre confiance en nous' => [
+    'fr' => 'Votre confiance en nous',
+    'en' => 'Your Trust in Us'
+  ],
+  'La clé de votre réussite' => [
+    'fr' => 'La clé de votre réussite',
+    'en' => 'The Key to Your Success'
+  ],
+  'Expérience avérée' => [
+    'fr' => 'Expérience avérée',
+    'en' => 'Proven Experience'
+  ],
+  'Les 56 années d’existence' => [
+    'fr' => 'Les 56 années d’existence du BEREG, lui ont permis d’acquérir une expérience indéniable et une notoriété dans le domaine des études d’ingénierie, de conception et d’architecture des ouvrages, 
+                                        tout type confondu, ainsi que le contrôle et le suivi des réalisations de ces derniers.',
+    'en' => 'With over 56 years of existence, BEREG has gained undeniable experience and a strong reputation in the fields of engineering studies, design, and architectural projects of all types, as well as in the supervision and quality control of their implementation.'
+  ],
+  'Personnel qualifié' => [
+    'fr' => 'Personnel qualifié',
+    'en' => 'Qualified Personnel'
+  ],
+  'Pour la réalisation des études' => [
+    'fr' => 'Pour la réalisation des études et du suivi des projets acquis, le BEREG dispose d’un personnel technique qualifié doté de compétences avérées multidisciplinaires. Ces dernières permettent, à ce personnel,
+            d’atteindre des performances optimales en termes de qualité et de délais.',
+    'en' => 'To carry out project studies and supervision, BEREG relies on a highly qualified technical team with multidisciplinary expertise, enabling optimal performance in terms of quality and timelines.'
+  ],
+  'Formation continue' => [
+    'fr' => 'Formation continue',
+    'en' => 'Continuous Training'
+  ],
+  'Outre les exigences académiques' => [
+    'fr' => 'Outre les exigences académiques et professionnelles au recrutement, le personnel du BEREG, et en particulier, le personnel 
+                                        technique, bénéficie dans le cadre de la formation continue des formations courtes, recyclages et séminaires voire de formations diplômantes telle que la formation BIM ',
+    'en' => 'Beyond academic and professional requirements at recruitment, BEREG’s staff, particularly the technical team, benefit from continuous professional development, including short training programs, refresher courses, seminars, and even degree programs such as BIM certification.'
+  ],
+  'Nos Unités' => [
+    'fr' => 'Nos Unités',
+    'en' => 'Our Units'
+  ],
+  'Direction Générale' => [
+    'fr' => 'Direction Générale',
+    'en' => 'Head Office'
+  ],
+  'Unité siège' => [
+    'fr' => 'Unité siège',
+    'en' => 'Main Unit'
+  ],
+  'Pôle de' => [
+    'fr' => 'Pôle de',
+    'en' => 'Division'
+  ],
+  'ccc' => [
+    'fr' => 'aaa',
+    'en' => 'aaa'
+  ],
+  'ccc' => [
+    'fr' => 'aaa',
+    'en' => 'aaa'
+  ],
+  'ccc' => [
+    'fr' => 'aaa',
+    'en' => 'aaa'
+  ],
+  'ccc' => [
+    'fr' => 'aaa',
+    'en' => 'aaa'
+  ],
+  'ccc' => [
+    'fr' => 'aaa',
+    'en' => 'aaa'
+  ],
+  'ccc' => [
+    'fr' => 'aaa',
+    'en' => 'aaa'
+  ],
+  
+];
+?>
 
             <!-- Carousel Start -->
             <div id="carousel" class="carousel slide" data-ride="carousel">
@@ -54,7 +145,7 @@
                             
                            
                             <h1 class="animated fadeInLeft">BEREG </h1>
-                            <p class="animated fadeInRight">Bâtir l'avenir</p>
+                            <p class="animated fadeInRight"><?= $text['Bâtir lavenir'][$language]; ?></p>
                             
                             <!--<a class="btn animated fadeInUp" href="https://htmlcodex.com/construction-company-website-template">Get A Quote</a>-->
                         </div>
@@ -65,19 +156,17 @@
                         <div class="carousel-caption">
                             
                            
-                            <h1 class="animated fadeInLeft"> Nous donnons vie à vos projets</h1>
+                            <h1 class="animated fadeInLeft"> <?= $text['Nous donnons vie à vos projets'][$language]; ?></h1>
                             
                             <!--<a class="btn animated fadeInUp" href="https://htmlcodex.com/construction-company-website-template">Get A Quote</a>-->
                         </div>
                     </div>
 
-                    
-
                     <div class="carousel-item">
                         <img src="img/carousel-3.jpg" alt="Carousel Image">
                         <div class="carousel-caption">
-                            <p class="animated fadeInRight">Votre confiance en nous  </p>
-                            <h1 class="animated fadeInLeft">La clé de votre réussite  </h1>
+                            <p class="animated fadeInRight"><?= $text['Votre confiance en nous'][$language]; ?></p>
+                            <h1 class="animated fadeInLeft"><?= $text['La clé de votre réussite'][$language]; ?></h1>
                            <!--  <a class="btn animated fadeInUp" href="https://htmlcodex.com/construction-company-website-template">Get A Quote</a>-->
                         </div>
                     </div>
@@ -105,8 +194,8 @@
                                     <i class="flaticon-worker"></i>
                                 </div>
                                 <div class="feature-text">
-                                    <h3>Expérience avérée </h3>
-                                    <p>Les 56 années d’existence du BEREG, lui ont permis d’acquérir une expérience indéniable et une notoriété dans le domaine des études d’ingénierie, de conception et d’architecture des ouvrages, tout type confondu, ainsi que le contrôle et le suivi des réalisations de ces derniers.</p>
+                                    <h3> <?= $text['Expérience avérée'][$language]; ?> </h3>
+                                    <p> <?= $text['Les 56 années d’existence'][$language]; ?></p>
                                 </div>
                             </div>
                         </div>
@@ -116,8 +205,8 @@
                                     <i class="flaticon-building"></i>
                                 </div>
                                 <div class="feature-text">
-                                    <h3>Personnel qualifié </h3>
-                                    <p>Pour la réalisation des études et du suivi des projets acquis, le BEREG dispose d’un personnel technique qualifié doté de compétences avérées multidisciplinaires. Ces dernières permettent, à ce personnel, d’atteindre des performances optimales en termes de qualité et de délais.</p>
+                                    <h3><?= $text['Personnel qualifié'][$language]; ?></h3>
+                                    <p><?= $text['Pour la réalisation des études'][$language]; ?></p>
                                 </div>
                             </div>
                         </div>
@@ -127,8 +216,8 @@
                                     <i class="flaticon-call"></i>
                                 </div>
                                 <div class="feature-text">
-                                    <h3>Formation continue</h3>
-                                    <p>Outre les exigences académiques et professionnelles au recrutement, le personnel du BEREG, et en particulier, le personnel technique, bénéficie dans le cadre de la formation continue des formations courtes, recyclages et séminaires voire de formations diplômantes telle que la formation BIM </p>
+                                    <h3><?= $text['Formation continue'][$language]; ?></h3>
+                                    <p><?= $text['Outre les exigences académiques'][$language]; ?> </p>
                                 </div>
                             </div>
                         </div>
@@ -137,18 +226,12 @@
             </div>
             <!-- Feature End-->
 
-
-            
-
-
-           
-
             <!-- About Start -->
             <div class="about wow fadeInUp" data-wow-delay="0.1s">
                 <div class="container">
                 <div class="section-header text-center">
 
-                        <h2>Nos Unités </h2>
+                        <h2><?= $text['Nos Unités'][$language]; ?></h2>
                     </div>
                  
                     <div class="row align-items-center">
@@ -161,15 +244,15 @@
 
                         <div class="col-lg-4 col-md-6">
                             <div  class="about-text">
-                                    <h5>Direction Générale <span style="font-weight: bold;font-size: 20px;"> ALGER -Bab Ezzouar </span></h5>
-                                    <p> Unité siège  <span style="font-weight: bold;font-size: 20px;">  Alger</span></p>
-                                   <p> Pôle de<span style="font-weight: bold;font-size: 20px;"> Telemcen </span></p>
+                                    <h5><?= $text['Direction Générale'][$language]; ?> <span style="font-weight: bold;font-size: 20px;"> ALGER -Bab Ezzouar </span></h5>
+                                    <p><?= $text['Unité siège'][$language]; ?><span style="font-weight: bold;font-size: 20px;">  Alger</span></p>
+                                   <p><?= $text['Pôle de'][$language]; ?><span style="font-weight: bold;font-size: 20px;"> Telemcen </span></p>
 
-                                   <p> Pôle de<span style="font-weight: bold;font-size: 20px;"> Tizi-Ouzou </span></p>
-                                   <p> Pôle de<span style="font-weight: bold;font-size: 20px;"> Setif </span></p>
-                                   <p> Pôle de<span style="font-weight: bold;font-size: 20px;"> Adrar </span></p>
-                                   <p> Pôle de<span style="font-weight: bold;font-size: 20px;"> Chlef </span></p>
-                                   <p> Pôle de<span style="font-weight: bold;font-size: 20px;"> Tiaret </span></p>
+                                   <p> <?= $text['Pôle de'][$language]; ?><span style="font-weight: bold;font-size: 20px;"> Tizi-Ouzou </span></p>
+                                   <p> <?= $text['Pôle de'][$language]; ?><span style="font-weight: bold;font-size: 20px;"> Setif </span></p>
+                                   <p> <?= $text['Pôle de'][$language]; ?><span style="font-weight: bold;font-size: 20px;"> Adrar </span></p>
+                                   <p> <?= $text['Pôle de'][$language]; ?><span style="font-weight: bold;font-size: 20px;"> Chlef </span></p>
+                                   <p> <?= $text['Pôle de'][$language]; ?><span style="font-weight: bold;font-size: 20px;"> Tiaret </span></p>
 
                             </div>
                         </div>
