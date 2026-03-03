@@ -82,7 +82,7 @@ $text = [
                         <div class="col-12">
                                  
                             <h2><?= $text['Suivi des chantiers'][$language]; ?> </h2>
-                            <h2>Suivi des chantiers </h2>
+                           
                           
                         </div>
 
