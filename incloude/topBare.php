@@ -1,3 +1,6 @@
+ <?php
+session_start();
+?>
  <!-- Top Bar Start -->
  <div class="top-bar">
                 <div class="">
