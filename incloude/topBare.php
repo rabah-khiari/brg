@@ -13,9 +13,9 @@
                         <div class="col-lg-8 col-md-6 d-none d-lg-block ">
                             <div class="text-center">
                              
-                                <p class="mb-0 mt-0" > Ministre de l'Habitat, de l'Urbanisme et de la Ville et de l'Aménagement du Territoire </p>
-                                <a class="mb-0"  href="https://gee.dz/">  Groupe Etudes & Engineering </a>
-                                <h6 class="mb-0 mt-0" >Bureau d'Etudes de Recherches et d'Engineering Général</h6>
+                                <p class="mb-0 mt-0" ><?= $language=='fr' ? 'Ministre de l\'Habitat, de l\'Urbanisme et de la Ville et de l\'Aménagement du Territoire ' : 'Ministry of Housing, Urban Planning, City and Territorial Development'; ?> </p>
+                                <a class="mb-0"  href="https://gee.dz/"> <?= $language=='fr' ? ' Groupe Etudes & Engineering' : 'Studies and Engineering Group'; ?>  </a>
+                                <h6 class="mb-0 mt-0" ><?= $language=='fr' ? ' Bureau d\'Etudes de Recherches et d\'Engineering Général' : 'Engineering, Research and Studies Office'; ?></h6>
                                 <a class="mb-0"  >مكتب الدراسات و الابحاث و الاعمال الهندسية العامة</a>
                             </div>
                             

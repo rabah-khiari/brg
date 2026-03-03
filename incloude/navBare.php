@@ -46,42 +46,45 @@ if (isset($_GET['lang']) && !in_array($_GET['lang'], $allowed_langs, true)) {
                 <span class="navbar-toggler-icon"></span>
             </button>
 
+
+
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav mr-auto">
-                    <a href="index.php" class="nav-item nav-link ">Accueil </a>
+                    <a href="index.php" class="nav-item nav-link "> <?= $language=='fr' ? 'Accueil' : 'Home'; ?>  </a>
                     
                     <div class="nav-item dropdown">
-                        <a href="about.php" class="nav-link dropdown-toggle" data-toggle="dropdown">à propos du BEREG</a>
+
+                        <a href="about.php" class="nav-link dropdown-toggle" data-toggle="dropdown"><?= $language=='fr' ? 'à propos du BEREG' : 'About BEREG'; ?></a>
                         <div class="dropdown-menu">
-                            <a href="historique.php" class="dropdown-item">Historique </a>
-                            <a href="international.php" class="dropdown-item">BEREG à l'international </a>
-                            <a href="politique.php" class="dropdown-item">Politique qualité </a>
+                            <a href="historique.php" class="dropdown-item"> <?= $language=='fr' ? 'Historique' : 'History'; ?>  </a>
+                            <a href="international.php" class="dropdown-item"><?= $language=='fr' ? 'BEREG à l\'international' : 'BEREG International'; ?> </a>
+                            <a href="politique.php" class="dropdown-item"><?= $language=='fr' ? 'Politique qualité' : 'Quality Policy'; ?> </a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
-                        <a href="service.php" class="nav-link dropdown-toggle" data-toggle="dropdown">Domaines d'activité</a>
+                        <a href="service.php" class="nav-link dropdown-toggle" data-toggle="dropdown"><?= $language=='fr' ? 'Domaines d\'activité' : 'Fields of Activity'; ?></a>
                         <div class="dropdown-menu">
-                            <a href="etudeArchi.php" class="dropdown-item">Études Architecturales  </a>
-                            <a href="etudeGC.php" class="dropdown-item">Études de Génie Civil  </a>
-                            <a href="corpEtaTech.php" class="dropdown-item">Corps d’État Technique  </a>
-                            <a href="etudeTopoVrd.php" class="dropdown-item">Études Topographiques et VRD </a>
-                            <a href="suiviChantie.php" class="dropdown-item">Suivi des Chantiers  </a>
+                            <a href="etudeArchi.php" class="dropdown-item"><?= $language=='fr' ? 'Études Architecturales' : 'Architectural Studies'; ?>  </a>
+                            <a href="etudeGC.php" class="dropdown-item"><?= $language=='fr' ? 'Études de Génie Civil' : 'Civil Engineering Studies'; ?> </a>
+                            <a href="corpEtaTech.php" class="dropdown-item"><?= $language=='fr' ? 'Corps d’État Technique' : 'Technical Trade Bodies'; ?>  </a>
+                            <a href="etudeTopoVrd.php" class="dropdown-item"><?= $language=='fr' ? 'Études Topographiques et VRD' : 'Topographic & VRD Studies'; ?> </a>
+                            <a href="suiviChantie.php" class="dropdown-item"><?= $language=='fr' ? 'Suivi des Chantiers' : 'Site Supervision'; ?>  </a>
                         </div>
                     </div>
-                    <a href="secteurActivite.php" class="nav-item nav-link ">Secteurs d'activité </a>
+                    <a href="secteurActivite.php" class="nav-item nav-link "><?= $language=='fr' ? 'Secteurs d\'activité' : 'Activity Sectors'; ?> </a>
                    
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Projets</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><?= $language=='fr' ? 'Projets' : 'Projects'; ?></a>
                         <div class="dropdown-menu">
-                            <a href="portfolio.php" class="dropdown-item">Grands projets réalisés</a>
-                            <a href="projetEnCours.php" class="dropdown-item">Projets en cours </a>
+                            <a href="portfolio.php" class="dropdown-item"><?= $language=='fr' ? 'Grands projets réalisés' : 'Major Completed Projects'; ?></a>
+                            <a href="projetEnCours.php" class="dropdown-item"><?= $language=='fr' ? 'Projets en cours' : 'Ongoing Projects'; ?> </a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Moyens humains et techniques</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><?= $language=='fr' ? 'Moyens humains et techniques' : 'Human & Technical Resources'; ?></a>
                         <div class="dropdown-menu">
-                            <a href="ressourceHumain.php" class="dropdown-item">Effectifs</a>
-                            <a href="ressourceTechnique.php" class="dropdown-item">Moyens techniques </a>
+                            <a href="ressourceHumain.php" class="dropdown-item"><?= $language=='fr' ? 'Effectifs' : 'Staff'; ?></a>
+                            <a href="ressourceTechnique.php" class="dropdown-item"><?= $language=='fr' ? 'Moyens techniques' : 'Technical Means'; ?> </a>
                            
                         </div>
                     </div>
@@ -103,15 +106,15 @@ if (isset($_GET['lang']) && !in_array($_GET['lang'], $allowed_langs, true)) {
                     </div>
                     -->
 
-                    <a href="contact.php" class="nav-item nav-link">Contact</a>
+                    <a href="contact.php" class="nav-item nav-link"><?= $language=='fr' ? 'Contact' : 'Contact'; ?></a>
                     
                     
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Appel d’Offres </a>
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><?= $language=='fr' ? 'Appel d’Offres' : 'Tenders'; ?> </a>
                         <div class="dropdown-menu">
-                            <a href="AppeldOffres1.php" class="dropdown-item">Ministère de l'Habitat</a>
-                            <a href="AppeldOffres2.php" class="dropdown-item">N°01/BEREG EPE-SPA/2025</a>
-                            <a href="AppeldOffres3.php" class="dropdown-item">Avis d'Infructuosité</a>
+                            <a href="AppeldOffres1.php" class="dropdown-item"><?= $language=='fr' ? 'Ministère de l\'Habitat' : 'Ministry of Housing'; ?></a>
+                            <a href="AppeldOffres2.php" class="dropdown-item"><?= $language=='fr' ? 'N°01/BEREG EPE-SPA/2025' : 'No. 01/BEREG EPE-SPA/2025'; ?></a>
+                            <a href="AppeldOffres3.php" class="dropdown-item"><?= $language=='fr' ? 'Avis d\'Infructuosité' : 'Notice of Unsuccessful Tender'; ?></a>
                         </div>
                        
                     </div>
@@ -124,9 +127,9 @@ if (isset($_GET['lang']) && !in_array($_GET['lang'], $allowed_langs, true)) {
                         ?>
                         <!-- language -->
                     <?php if ($language == 'fr'): ?>
-                        <a class="nav-item nav-link" href="?lang=en"><i class="fa fa-language" aria-hidden="true"></i> Englais</a>
+                        <a class="nav-item nav-link" href="?lang=en"><i class="fa fa-language" aria-hidden="true"></i><?= $language=='fr' ? ' Français' : ' Frensh'; ?> </a>
                     <?php else: ?>
-                        <a class="nav-item nav-link" href="?lang=fr"><i class="fa fa-language" aria-hidden="true"></i> Français</a>
+                        <a class="nav-item nav-link" href="?lang=fr"><i class="fa fa-language" aria-hidden="true"></i> <?= $language=='fr' ? ' Englais' : ' English'; ?></a>
                     <?php endif; ?>
                 </div>
                 
