@@ -1,4 +1,5 @@
 <?php
+session_start();
 // Allowed languages
 $allowed_langs = ['fr', 'en'];
 
@@ -123,9 +124,11 @@ if (isset($_GET['lang']) && !in_array($_GET['lang'], $allowed_langs, true)) {
                           
 
                         // save language choice in cookie for next pages
-                        setcookie('lang', $language, time() + 3600 * 24 * 30, '/'); // 30 days
-                        setcookie('lang', $language); // 30 days
-                        $_SESSION['lang'] = $language;
+                        setcookie('lang', $language, time() + 3600 * 24 * 30, '/');
+                        $_SESSION['language'] = $language;
+
+                        header("Location: ".$_SERVER['HTTP_REFERER']);
+                        
                         ?>
                         <!-- language -->
                     <?php if ($language == 'fr'): ?>
