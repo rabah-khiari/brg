@@ -61,25 +61,25 @@ if (isset($_GET['lang']) && !in_array($_GET['lang'], $allowed_langs, true)) {
 
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav mr-auto">
-                    <a href="index.php" class="nav-item nav-link "> <?= $language=='fr' ? 'Accueil' : 'Home'; ?>  </a>
+                    <a href="index.php?lang=<?= $language ?>" class="nav-item nav-link "> <?= $language=='fr' ? 'Accueil' : 'Home'; ?>  </a>
                     
                     <div class="nav-item dropdown">
 
-                        <a href="about.php" class="nav-link dropdown-toggle" data-toggle="dropdown"><?= $language=='fr' ? 'à propos du BEREG' : 'About BEREG'; ?></a>
+                        <a href="about.php?lang=<?= $language ?>" class="nav-link dropdown-toggle" data-toggle="dropdown"><?= $language=='fr' ? 'à propos du BEREG' : 'About BEREG'; ?></a>
                         <div class="dropdown-menu">
-                            <a href="historique.php" class="dropdown-item"> <?= $language=='fr' ? 'Historique' : 'History'; ?>  </a>
-                            <a href="international.php" class="dropdown-item"><?= $language=='fr' ? 'BEREG à l\'international' : 'BEREG International'; ?> </a>
-                            <a href="politique.php" class="dropdown-item"><?= $language=='fr' ? 'Politique qualité' : 'Quality Policy'; ?> </a>
+                            <a href="historique.php?lang=<?= $language ?>" class="dropdown-item"> <?= $language=='fr' ? 'Historique' : 'History'; ?>  </a>
+                            <a href="international.php?lang=<?= $language ?>" class="dropdown-item"><?= $language=='fr' ? 'BEREG à l\'international' : 'BEREG International'; ?> </a>
+                            <a href="politique.php?lang=<?= $language ?>" class="dropdown-item"><?= $language=='fr' ? 'Politique qualité' : 'Quality Policy'; ?> </a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
-                        <a href="service.php" class="nav-link dropdown-toggle" data-toggle="dropdown"><?= $language=='fr' ? 'Domaines d\'activité' : 'Fields of Activity'; ?></a>
+                        <a href="service.php?lang=<?= $language ?>" class="nav-link dropdown-toggle" data-toggle="dropdown"><?= $language=='fr' ? 'Domaines d\'activité' : 'Fields of Activity'; ?></a>
                         <div class="dropdown-menu">
-                            <a href="etudeArchi.php" class="dropdown-item"><?= $language=='fr' ? 'Études Architecturales' : 'Architectural Studies'; ?>  </a>
-                            <a href="etudeGC.php" class="dropdown-item"><?= $language=='fr' ? 'Études de Génie Civil' : 'Civil Engineering Studies'; ?> </a>
-                            <a href="corpEtaTech.php" class="dropdown-item"><?= $language=='fr' ? 'Corps d’État Technique' : 'Technical Trade Bodies'; ?>  </a>
-                            <a href="etudeTopoVrd.php" class="dropdown-item"><?= $language=='fr' ? 'Études Topographiques et VRD' : 'Topographic & VRD Studies'; ?> </a>
-                            <a href="suiviChantie.php" class="dropdown-item"><?= $language=='fr' ? 'Suivi des Chantiers' : 'Site Supervision'; ?>  </a>
+                            <a href="etudeArchi.php?lang=<?= $language ?>" class="dropdown-item"><?= $language=='fr' ? 'Études Architecturales' : 'Architectural Studies'; ?>  </a>
+                            <a href="etudeGC.php?lang=<?= $language ?>" class="dropdown-item"><?= $language=='fr' ? 'Études de Génie Civil' : 'Civil Engineering Studies'; ?> </a>
+                            <a href="corpEtaTech.php?lang=<?= $language ?>" class="dropdown-item"><?= $language=='fr' ? 'Corps d’État Technique' : 'Technical Trade Bodies'; ?>  </a>
+                            <a href="etudeTopoVrd.php?lang=<?= $language ?>" class="dropdown-item"><?= $language=='fr' ? 'Études Topographiques et VRD' : 'Topographic & VRD Studies'; ?> </a>
+                            <a href="suiviChantie.php?lang=<?= $language ?>" class="dropdown-item"><?= $language=='fr' ? 'Suivi des Chantiers' : 'Site Supervision'; ?>  </a>
                         </div>
                     </div>
                     <a href="secteurActivite.php" class="nav-item nav-link "><?= $language=='fr' ? 'Secteurs d\'activité' : 'Activity Sectors'; ?> </a>
