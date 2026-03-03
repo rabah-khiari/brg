@@ -120,22 +120,31 @@ if (isset($_GET['lang']) && !in_array($_GET['lang'], $allowed_langs, true)) {
                        
                     </div>
                     <?php
-                        $language = $_GET['lang'] ?? $_COOKIE['lang'] ?? 'fr'; // default French
+                        if(isset($_GET['lang'])){
+                            $language = $_GET['lang'];
+                            $test1='hiiii';
+                            setcookie('lang', $language, time() + 3600*24*30, '/');
+                            $_SESSION['language'] = $language;
+
+                            header("Location: ".$_SERVER['PHP_SELF']);
                           
+                        }
 
-                        // save language choice in cookie for next pages
-                        setcookie('lang', $language, time() + 3600 * 24 * 30, '/');
-                        $_SESSION['language'] = $language;
-
-                        header("Location: ".$_SERVER['HTTP_REFERER']);
+                        $language = $_SESSION['language'] ?? $_COOKIE['lang'] ?? 'fr';
+                        
                         
                         ?>
                         <!-- language -->
                     <?php if ($language == 'fr'): ?>
-                        <a class="nav-item nav-link" href="?lang=en"><i class="fa fa-language" aria-hidden="true"></i> <?= $language=='fr' ? ' Englais' : ' English'; ?></a>
-                    <?php else: ?>
-                        <a class="nav-item nav-link" href="?lang=fr"><i class="fa fa-language" aria-hidden="true"></i> <?= $language=='fr' ? ' Français' : ' Frensh'; ?> </a>
-                    <?php endif; ?>
+                        <a class="nav-item nav-link" href="?lang=en">
+                        <i class="fa fa-language"></i> English
+                        </a>
+
+                        <?php else: ?>
+                        <a class="nav-item nav-link" href="?lang=fr">
+                        <i class="fa fa-language"></i> Français
+                        </a>
+                        <?php endif; ?>
 
                 </div>
                 
@@ -143,5 +152,5 @@ if (isset($_GET['lang']) && !in_array($_GET['lang'], $allowed_langs, true)) {
         </nav>
     </div>
 </div>
-<?php echo session_save_path(); echo " lang " ; echo ($_COOKIE['lang']) ;  ?>
+<?php echo session_save_path(); echo " lang " ; echo ($_COOKIE['lang'])  ; echo( $test1);  ?>
 <!-- Nav Bar End -->
