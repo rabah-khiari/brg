@@ -82,20 +82,20 @@ if (isset($_GET['lang']) && !in_array($_GET['lang'], $allowed_langs, true)) {
                             <a href="suiviChantie.php?lang=<?= $language ?>" class="dropdown-item"><?= $language=='fr' ? 'Suivi des Chantiers' : 'Site Supervision'; ?>  </a>
                         </div>
                     </div>
-                    <a href="secteurActivite.php" class="nav-item nav-link "><?= $language=='fr' ? 'Secteurs d\'activité' : 'Activity Sectors'; ?> </a>
+                    <a href="secteurActivite.php?lang=<?= $language ?>" class="nav-item nav-link "><?= $language=='fr' ? 'Secteurs d\'activité' : 'Activity Sectors'; ?> </a>
                    
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><?= $language=='fr' ? 'Projets' : 'Projects'; ?></a>
                         <div class="dropdown-menu">
-                            <a href="portfolio.php" class="dropdown-item"><?= $language=='fr' ? 'Grands projets réalisés' : 'Major Completed Projects'; ?></a>
-                            <a href="projetEnCours.php" class="dropdown-item"><?= $language=='fr' ? 'Projets en cours' : 'Ongoing Projects'; ?> </a>
+                            <a href="portfolio.php?lang=<?= $language ?>" class="dropdown-item"><?= $language=='fr' ? 'Grands projets réalisés' : 'Major Completed Projects'; ?></a>
+                            <a href="projetEnCours.php?lang=<?= $language ?>" class="dropdown-item"><?= $language=='fr' ? 'Projets en cours' : 'Ongoing Projects'; ?> </a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><?= $language=='fr' ? 'Moyens humains et techniques' : 'Human & Technical Resources'; ?></a>
                         <div class="dropdown-menu">
-                            <a href="ressourceHumain.php" class="dropdown-item"><?= $language=='fr' ? 'Effectifs' : 'Staff'; ?></a>
-                            <a href="ressourceTechnique.php" class="dropdown-item"><?= $language=='fr' ? 'Moyens techniques' : 'Technical Means'; ?> </a>
+                            <a href="ressourceHumain.php?lang=<?= $language ?>" class="dropdown-item"><?= $language=='fr' ? 'Effectifs' : 'Staff'; ?></a>
+                            <a href="ressourceTechnique.php?lang=<?= $language ?>" class="dropdown-item"><?= $language=='fr' ? 'Moyens techniques' : 'Technical Means'; ?> </a>
                            
                         </div>
                     </div>
@@ -117,15 +117,15 @@ if (isset($_GET['lang']) && !in_array($_GET['lang'], $allowed_langs, true)) {
                     </div>
                     -->
 
-                    <a href="contact.php" class="nav-item nav-link"><?= $language=='fr' ? 'Contact' : 'Contact'; ?></a>
+                    <a href="contact.php?lang=<?= $language ?>" class="nav-item nav-link"><?= $language=='fr' ? 'Contact' : 'Contact'; ?></a>
                     
                     
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><?= $language=='fr' ? 'Appel d’Offres' : 'Tenders'; ?> </a>
                         <div class="dropdown-menu">
-                            <a href="AppeldOffres1.php" class="dropdown-item"><?= $language=='fr' ? 'Ministère de l\'Habitat' : 'Ministry of Housing'; ?></a>
-                            <a href="AppeldOffres2.php" class="dropdown-item"><?= $language=='fr' ? 'N°01/BEREG EPE-SPA/2025' : 'No. 01/BEREG EPE-SPA/2025'; ?></a>
-                            <a href="AppeldOffres3.php" class="dropdown-item"><?= $language=='fr' ? 'Avis d\'Infructuosité' : 'Notice of Unsuccessful Tender'; ?></a>
+                            <a href="AppeldOffres1.php?lang=<?= $language ?>" class="dropdown-item"><?= $language=='fr' ? 'Ministère de l\'Habitat' : 'Ministry of Housing'; ?></a>
+                            <a href="AppeldOffres2.php?lang=<?= $language ?>" class="dropdown-item"><?= $language=='fr' ? 'N°01/BEREG EPE-SPA/2025' : 'No. 01/BEREG EPE-SPA/2025'; ?></a>
+                            <a href="AppeldOffres3.php?lang=<?= $language ?>" class="dropdown-item"><?= $language=='fr' ? 'Avis d\'Infructuosité' : 'Notice of Unsuccessful Tender'; ?></a>
                         </div>
                        
                     </div>
@@ -154,5 +154,5 @@ if (isset($_GET['lang']) && !in_array($_GET['lang'], $allowed_langs, true)) {
         </nav>
     </div>
 </div>
-<?php echo session_save_path(); echo " lang " ; echo ($_COOKIE['lang'])  ; echo( $test1);  ?>
+
 <!-- Nav Bar End -->
