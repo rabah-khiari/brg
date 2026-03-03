@@ -1,5 +1,15 @@
 <?php
 session_start();
+if(isset($_GET['lang']))
+{
+    $language = $_GET['lang'];
+    
+    setcookie('lang', $language, time() + 3600*24*30, '/');
+    $_SESSION['language'] = $language;
+
+    header("Location: ".$_SERVER['PHP_SELF']);
+}
+
 // Allowed languages
 $allowed_langs = ['fr', 'en'];
 
@@ -120,17 +130,9 @@ if (isset($_GET['lang']) && !in_array($_GET['lang'], $allowed_langs, true)) {
                        
                     </div>
                     <?php
-                        if(isset($_GET['lang'])){
-                            $language = $_GET['lang'];
-                            $test1='hiiii';
-                            setcookie('lang', $language, time() + 3600*24*30, '/');
-                            $_SESSION['language'] = $language;
+                        
 
-                            header("Location: ".$_SERVER['PHP_SELF']);
-                          
-                        }
-
-                        $language = $_SESSION['language'] ?? $_COOKIE['lang'] ?? 'fr';
+                        //$language = $_SESSION['language'] ?? $_COOKIE['lang'] ?? 'fr';
                         
                         
                         ?>
