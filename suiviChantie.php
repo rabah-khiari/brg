@@ -38,14 +38,51 @@
             
             <?php include ('incloude/navBare.php'); ?>
             <!-- Nav Bar End -->
-            
+          
+<?php
+
+// text dictionary
+$text = [
+  'Suivi des chantiers' => [
+    'fr' => 'Suivi des chantiers',
+    'en' => 'Construction Supervision'
+],
+
+'Dans le cadre' => [
+    'fr' => 'Dans le cadre de projets de suivi, le BEREG, par le biais de ses architectes, ingénieurs et techniciens, dûment qualifiés, assurent pour le compte des maîtres d’ouvrage, le suivi d’exécution des réalisations des projets qui lui sont confiés par ces derniers. A ce titre, il garantit le bon déroulement des travaux de construction et ce en respectant les étapes suivantes :',
+    'en' => 'As part of supervision assignments, B.E.R.E.G, through its duly qualified architects, engineers, and technicians, ensures on behalf of project owners the monitoring of project execution entrusted to it. In this regard, it guarantees the proper progress of construction works by following these key steps:'
+],
+
+'Établissement d’un planning' => [
+    'fr' => 'Établissement d’un planning de chantier en identifiant les travaux et en structurant les tâches. ',
+    'en' => 'Preparation of a site schedule by identifying works and structuring tasks.'
+],
+
+'Mobilisation des ressources' => [
+    'fr' => 'Mobilisation des ressources nécessaires pour chaque étape des travaux. ',
+    'en' => 'Mobilization of the necessary resources for each stage of the works.'
+],
+
+'Communication avec les' => [
+    'fr' => 'Communication avec les différentes parties prenantes notamment  avec les conducteurs de travaux et ce en tenant des réunions de chantier à l’effet de faire le point.',
+    'en' => 'Communication with the various stakeholders, particularly site managers, through regular site meetings to review progress.'
+],
+
+'S’assurer du respect des' => [
+    'fr' => 'S’assurer du respect des normes techniques, le respect des cahiers des charges, les délais ainsi que les normes d’environnement et de sécurité et ce tout au long du chantier.',
+    'en' => 'Ensuring compliance with technical standards, contractual specifications, deadlines, as well as environmental and safety regulations throughout the project.'
+],
+];
+?>       
+
             <!-- Page Header Start -->
             <div class="page-header">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                                  
-                            <h2> Suivi des chantiers </h2>
+                            <h2><?= $text['Suivi des chantiers'][$language]; ?> </h2>
+                            <h2>Suivi des chantiers </h2>
                           
                         </div>
 
@@ -67,12 +104,12 @@
                         <div class="col-lg-7 col-md-7 col-sm-11">
                             
                             <div class="about-text">
-                                <p>Dans le cadre de projets de suivi, le BEREG, par le biais de ses architectes, ingénieurs et techniciens, dûment qualifiés, assurent pour le compte des maîtres d’ouvrage, le suivi d’exécution des réalisations des projets qui lui sont confiés par ces derniers. A ce titre, il garantit le bon déroulement des travaux de construction et ce en respectant les étapes suivantes :</p>
+                                <p><?= $text['Dans le cadre'][$language]; ?></p>
 
-                                    <p class="col-8 ms-4"> 1. Établissement d’un planning de chantier en identifiant les travaux et en structurant les tâches. </p> 
-                                    <p class="col-8 ps-4"> 2. Mobilisation des ressources nécessaires pour chaque étape des travaux.  </p>
-                                    <p class="col-8 ps-4"> 3. Communication avec les différentes parties prenantes notamment  avec les conducteurs de travaux et ce en tenant des réunions de chantier à l’effet de faire le point.  </p>
-                                    <p class="col-8 ps-4"> 4. S’assurer du respect des normes techniques, le respect des cahiers des charges, les délais ainsi que les normes d’environnement et de sécurité et ce tout au long du chantier.</p>
+                                    <p class="col-8 ms-4"> 1. <?= $text['Établissement d’un planning'][$language]; ?> </p> 
+                                    <p class="col-8 ps-4"> 2. <?= $text['Mobilisation des ressources'][$language]; ?>  </p>
+                                    <p class="col-8 ps-4"> 3. <?= $text['Communication avec les'][$language]; ?>  </p>
+                                    <p class="col-8 ps-4"> 4. <?= $text['S’assurer du respect des'][$language]; ?></p>
                                 
                             </div>
                         </div>

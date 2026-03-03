@@ -1,19 +1,40 @@
+<?php
+$text =  [
+    'Tech_Means_Title' => [
+        'fr' => 'Moyens Techniques',
+        'en' => 'Technical Resources'
+    ],
+    'Software_Label' => [
+        'fr' => 'Logiciels',
+        'en' => 'Software'
+    ],
+    'Topo_Equipment' => [
+        'fr' => 'Materiels de Topographie',
+        'en' => 'Topography Equipment'
+    ],
+    'Repro_Equipment' => [
+        'fr' => 'Matériels de Repographie',
+        'en' => 'Reprography Equipment'
+    ],
+    'Project_In_Progress' => [
+        'fr' => 'Projet en cours',
+        'en' => 'Current Projects'
+    ]
+];
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?= $language; ?>">
     <head>
         <meta charset="utf-8">
-        <title>Projet en cours</title>
+        <title><?= $text['Project_In_Progress'][$language]; ?></title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
 
-        <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
 
-        <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-        <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
         <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
@@ -23,28 +44,18 @@
         <link href="lib/slick/slick.css" rel="stylesheet">
         <link href="lib/slick/slick-theme.css" rel="stylesheet">
 
-        <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
     </head>
 
     <body>
         <div class="wrapper">
-           <!-- Top Bar Start -->
            <?php include ('incloude/topBare.php'); ?>
-            <!-- Top Bar End -->
-
-            <!-- Nav Bar Start -->
-            
             <?php include ('incloude/navBare.php'); ?>
-            <!-- Nav Bar End -->
-            
-            
-            <!-- Page Header Start -->
             <div class="page-header">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2>Moyens Techniques </h2>
+                            <h2><?= $text['Tech_Means_Title'][$language]; ?></h2>
                             
                         </div>
                         
@@ -52,11 +63,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Page Header End -->
-
-
-            <!-- Atestation Start -->
- <div class="faqs">
+            <div class="faqs">
                 <div class="container">
                     <div class="section-header text-center">
 
@@ -67,7 +74,7 @@
                                 <div class="card wow fadeInLeft shadow" data-wow-delay="0.1s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-toggle="collapse" href="#collapseOneh">
-                                       Logiciels 
+                                        <?= $text['Software_Label'][$language]; ?> 
                                         </a>
                                     </div>
                                     <div id="collapseOneh" class="collapse" data-parent="#accordion-1">
@@ -86,14 +93,14 @@
                                 <div class="card wow fadeInLeft shadow" data-wow-delay="0.1s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-toggle="collapse" href="#collapsetree">
-                                        Materiels de Topographie 
+                                        <?= $text['Topo_Equipment'][$language]; ?> 
                                         </a>
                                     </div>
                                     <div id="collapsetree" class="collapse" data-parent="#accordion-1">
                                         <div class="card-body">
 
-                                            <p>Station GPS LEICA </p>
-                                            <p>Station LEICA</p>
+                                            <p>Station GPS LEICA </p>
+                                            <p>Station LEICA</p>
                                             <p>Lasermètre leica disto d510</p>
                                             <p>Scanner 3D LEICA BLK 360</p>
 
@@ -103,7 +110,7 @@
                                 <div class="card wow fadeInLeft shadow" data-wow-delay="0.1s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-toggle="collapse" href="#collapsetwo">
-                                        Matériels de Repographie 
+                                        <?= $text['Repro_Equipment'][$language]; ?> 
                                         </a>
                                     </div>
                                     <div id="collapsetwo" class="collapse" data-parent="#accordion-1">
@@ -132,14 +139,12 @@
                     </div>
                 </div>
             </div>
-            <!-- atestation End -->
             <br><br><br><br>
-           
+            
 
             <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
         </div>
 
-        <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
         <script src="lib/easing/easing.min.js"></script>
@@ -151,7 +156,6 @@
         <script src="lib/counterup/counterup.min.js"></script>
         <script src="lib/slick/slick.min.js"></script>
 
-        <!-- Template Javascript -->
         <script src="js/main.js"></script>
     </body>
 </html>

@@ -38,14 +38,46 @@
             
             <?php include ('incloude/navBare.php'); ?>
             <!-- Nav Bar End -->
-            
+    
+<?php
+
+// text dictionary
+$text = [
+  'Etudes architecturales' => [
+    'fr' => 'Etudes architecturales',
+    'en' => 'Architectural Studies'
+],
+
+'L’étude architecturale est' => [
+    'fr' => 'L’étude architecturale est une étape importante dans le processus de conception et de construction d’un bâtiment. Elle consiste à élaborer un projet de construction en prenant en compte de nombreux paramètres, tels que l’aspect esthétique, l’optimisation des espaces, les contraintes techniques et réglementaires, les caractéristiques géotechniques …etc.',
+    'en' => 'Architectural study is a key stage in the design and construction process of a building. It involves developing a construction project while taking into account numerous parameters such as aesthetic aspects, space optimization, technical and regulatory constraints, and geotechnical characteristics, among others.'
+],
+
+'L’étude architecturale peut' => [
+    'fr' => 'L’étude architecturale peut également inclure la réalisation de maquettes, de dessins en 3D et de simulations de l’environnement futur de l’ouvrage.',
+    'en' => 'Architectural study may also include the development of scale models, 3D drawings, and simulations of the future environment of the project.'
+],
+
+'Elle donne, par' => [
+    'fr' => 'Elle donne, par conséquent, au maître d’ouvrage, un aperçu virtuel sur la fonctionnalité de la construction, sur les normes de sécurité à respecter, sur la qualité de vie procurée par l’ouvrage et sur l’aspect économique et environnemental de l’ouvrage.',
+    'en' => 'It therefore provides the project owner with a virtual overview of the building’s functionality, the applicable safety standards, the quality of life offered by the project, as well as its economic and environmental aspects.'
+],
+
+'A ce titre,' => [
+    'fr' => 'A ce titre, le BEREG, à travers ses expériences cumulées tout au long des années de son existence, offre ses compétences en la matière et assure des prestations à la hauteur des exigences les plus élevés',
+    'en' => 'In this regard, B.E.R.E.G, drawing on its accumulated experience over the years, offers its expertise in this field and delivers services that meet the highest standards and requirements.'
+],
+
+
+];
+?>
             <!-- Page Header Start -->
             <div class="page-header">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                                  
-                            <h2> Etudes architecturales </h2>
+                            <h2><?= $text['Etudes architecturales'][$language]; ?> </h2>
                           
                             
                         </div>
@@ -69,29 +101,16 @@
                         <div class="col-lg-7 col-md-6">
                             
                             <div class="about-text">
-                                <p>L’étude architecturale est une étape importante dans le processus de conception et de construction d’un bâtiment. Elle consiste à élaborer un projet de construction en prenant en compte de nombreux paramètres, tels que l’aspect esthétique, l’optimisation des espaces, les contraintes techniques et réglementaires, les caractéristiques géotechniques …etc.</p>
-                                <p>
-                                L’étude architecturale peut également inclure la réalisation de maquettes, de dessins en 3D et de simulations de l’environnement futur de l’ouvrage. </p>
-                               
-                                <p>
-                                Elle donne, par conséquent, au maître d’ouvrage, un aperçu virtuel sur la fonctionnalité de la construction, sur les normes de sécurité à respecter, sur la qualité de vie procurée par l’ouvrage et sur l’aspect économique et environnemental de l’ouvrage.</p>
-                                <p>
-                                A ce titre, le BEREG, à travers ses expériences cumulées tout au long des années de son existence, offre ses compétences en la matière et assure des prestations à la hauteur des exigences les plus élevés
-                                </p>
-                                
+                                <p><?= $text['L’étude architecturale est'][$language]; ?> </p>
+                                <p><?= $text['L’étude architecturale peut'][$language]; ?> </p>
+                                <p><?= $text['Elle donne, par'][$language]; ?> </p>
+                                <p><?= $text['A ce titre,'][$language]; ?> </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- About End -->
-
-            
-           
-            
-           
-            
-          
 
             <!-- Footer Start -->
             <?php include ('incloude/footer.php'); ?>

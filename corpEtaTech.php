@@ -38,14 +38,55 @@
             
             <?php include ('incloude/navBare.php'); ?>
             <!-- Nav Bar End -->
-            
+
+<?php
+
+// text dictionary
+$text = [
+'Corps d’état technique' => [
+    'fr' => 'Corps d’état technique',
+    'en' => 'Technical Building Trades'
+],
+
+'Les corps d\'état' => [
+    'fr' => 'Les corps d\'état techniques concernent les métiers du bâtiment suivants: ',
+    'en' => 'Technical building trades include the following construction disciplines: '
+],
+
+'corps d\'état du gros-œuvre (GO)' => [
+    'fr' => 'corps d\'état du gros-œuvre (GO)',
+    'en' => 'Structural works (Shell & Core / Main structural works)'
+],
+
+'corps d\'état du clos' => [
+    'fr' => 'corps d\'état du clos et couvert (CEC)',
+    'en' => 'Envelope works (Building envelope – watertight structure)'
+],
+
+'corps d\'état secondaires (CES)' => [
+    'fr' => 'corps d\'état secondaires (CES)',
+    'en' => 'Secondary works (Finishing works)'
+],
+
+'corps d\'état Chauffage-Ventilation-Clim-Electricité' => [
+    'fr' => 'corps d\'état Chauffage-Ventilation-Clim-Electricité (CVCE)',
+    'en' => 'Heating, Ventilation, Air Conditioning and Electrical works (HVAC & Electrical)'
+],
+
+'Ce domaine fait' => [
+    'fr' => 'Ce domaine fait aussi partie des maîtrises du BEREG. Ses ingénieurs et techniciens peuvent réaliser les études de tous corps d’état technique en toutes circonstances.',
+    'en' => 'This field is also one of B.E.R.E.G’s areas of expertise. Its engineers and technicians are capable of carrying out studies covering all technical building trades under all circumstances.'
+],
+
+];
+?>
             <!-- Page Header Start -->
             <div class="page-header">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                                  
-                            <h2> Corps d’état technique  </h2>
+                            <h2><?= $text['Corps d’état technique'][$language]; ?>   </h2>
                           
                             
                         </div>
@@ -54,7 +95,6 @@
                 </div>
             </div>
             <!-- Page Header End -->
-
 
             <!-- About Start -->
             <div class="about wow fadeInUp shadow " data-wow-delay="0.1s">
@@ -69,30 +109,23 @@
                         <div class="mt-0 col-lg-7 col-md-6">
                             
                             <div class="about-text">
-                                <p>
-                                Les corps d'état techniques concernent les métiers du bâtiment suivants: 
+                                <p><?= $text['Les corps d\'état'][$language]; ?>
+                                
                                 <br>
-                                &nbsp; &nbsp; • &nbsp; corps d'état du gros-œuvre (GO) <br>
-                                &nbsp; &nbsp; • &nbsp; corps d'état du clos et couvert (CEC)<br>
-                                &nbsp; &nbsp; • &nbsp; corps d'état secondaires (CES)<br>
-                                &nbsp; &nbsp; • &nbsp; corps d'état Chauffage-Ventilation-Clim-Electricité (CVCE)<br>
+                                &nbsp; &nbsp; • &nbsp; <?= $text['corps d\'état du gros-œuvre (GO)'][$language]; ?> <br>
+                                &nbsp; &nbsp; • &nbsp; <?= $text['corps d\'état du clos'][$language]; ?><br>
+                                &nbsp; &nbsp; • &nbsp; <?= $text['corps d\'état secondaires (CES)'][$language]; ?><br>
+                                &nbsp; &nbsp; • &nbsp; <?= $text['corps d\'état Chauffage-Ventilation-Clim-Electricité'][$language]; ?><br>
 
                                 </p>
-                                <p>Ce domaine fait aussi partie des maîtrises du BEREG. Ses ingénieurs et techniciens peuvent réaliser les études de tous corps d’état technique en toutes circonstances.</p>
+                                <p><?= $text['Ce domaine fait'][$language]; ?></p>
 
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- About End -->
-
-            
-           
-            
-           
-            
-          
+            <!-- About End -->          
 
             <!-- Footer Start -->
             <?php include ('incloude/footer.php'); ?>

@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -37,24 +39,39 @@
             
             <?php include ('incloude/navBare.php'); ?>
             <!-- Nav Bar End -->
-            
+<?php
+
+// text dictionary
+$text = [
+'Nos projets' => [
+    'fr' => 'Nos projets',
+    'en' => 'Our Projects'
+],
+
+'Le BEREG a réalisée' => [
+    'fr' => 'Le BEREG a réalisée depuis sa création plus de 1000 projets en étude et suivi',
+    'en' => 'Since its creation, B.E.R.E.G has completed more than 1000 design and supervision projects'
+],
+
+  
+];
+?>            
             
             <!-- Page Header Start -->
             <div class="page-header">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2>Nos projets</h2>
-                            <h3> Le BEREG a réalisée depuis sa création plus de 1000 projets en étude et suivi </h3>
+                            <h2><?= $text['Nos projets'][$language]; ?></h2>
+                            <h3> <?= $text['Le BEREG a réalisée'][$language]; ?> </h3>
                         </div>
-                        
-                        
+
                     </div>
                 </div>
             </div>
             <!-- Page Header End -->
 
-            
+
             <!-- projectSipari Start -->
             <?php include ('incloude/projetSipare.php'); ?>
             <!-- projectSipari End -->

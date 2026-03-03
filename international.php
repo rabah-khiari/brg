@@ -39,13 +39,45 @@
             <?php include ('incloude/navBare.php'); ?>
             <!-- Nav Bar End -->
             
+           
+<?php
+
+$text = [
+'LE BEREG A' => [
+    'fr' => "LE BEREG A L’INTERNATIONAL",
+    'en' => "B.E.R.E.G INTERNATIONAL"
+],
+
+'Le BEREG est non' => [
+    'fr' => 'Le BEREG est non seulement le pionnier et leader des bureaux d’Etudes Algériens de par la certification professionnelle internationale de 23 architectes et ingénieurs par le CERTIPOT AUTORIZED TESTING CENTER, et ce dans le cadre de l’implémentation du Building Information Modeling (BIM), mais aussi, par sa première position en Afrique en tant qu’entité gouvernementale en full BIM (Maîtrise de Tous Corps d’Etat TCE : Architecture, Structure, Mécanique, Electricité, Plomberie)',
+    'en' => 'B.E.R.E.G is not only a pioneer and leader among Algerian engineering design offices through the international professional certification of 23 architects and engineers by the CERTIPOT Authorized Testing Center, as part of the implementation of Building Information Modeling (BIM), but also holds the first position in Africa as a governmental entity fully operating in BIM (Mastering all technical disciplines: Architecture, Structure, Mechanical, Electrical, and Plumbing).'
+],
+
+'A noter que' => [
+    'fr' => 'A noter que le BEREG a été félicité pour son initiative par BIM Africa, un organisme de la société civile (ONG) ayant pour mandat de permettre et de réglementer l’adoption et la mise en œuvre du BIM dans l’industrie de l’architecture, de l’engineering, et des opérations de constructions (AECO) à travers l’Afrique.',
+    'en' => 'It should be noted that B.E.R.E.G was praised for its initiative by BIM Africa, a civil society organization (NGO) mandated to enable and regulate the adoption and implementation of BIM in the architecture, engineering, and construction operations (AECO) industry across Africa.'
+],                        
+
+'A ce titre,' => [
+    'fr' => ' A ce titre, l’Algérie a été choisie parmi les quatre (04) pays africains (Afrique du Sud, Nigéria, Ethiopie et l’Algérie) pour être inscrit dans le rapport BIM 2020 du mois d’Août sur l’Afrique, qui met en exergue diverses initiatives sur la transformation numérique de l’industrie du bâtiment en Afrique, en présentant le projet pilote de mise en œuvre du processus BIM au sein du BEREG.',
+    'en' => 'In this regard, Algeria was selected among four African countries (South Africa, Nigeria, Ethiopia, and Algeria) to be included in the August 2020 BIM Africa report, which highlights various initiatives on the digital transformation of the construction industry in Africa, presenting the pilot project for implementing the BIM process within B.E.R.E.G.'
+],
+
+'Il est important' => [
+    'fr' => 'Il est important de signaler aussi, que le rapport BIM Afrique 2020 est largement accessible aux experts et professionnels à travers l’Afrique et le reste du monde.</p>',
+    'en' => 'It is also important to note that the BIM Africa 2020 report is widely accessible to experts and professionals across Africa and the rest of the world.</p>'
+],
+  
+  
+];
+?>
             <!-- Page Header Start -->
             <div class="page-header">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                                  
-                            <h2> LE BEREG A L’INTERNATIONAL</h2>
+                            <h2><?= $text['LE BEREG A'][$language]; ?> </h2>
                           
                             
                         </div>
@@ -69,20 +101,11 @@
                         <div class="col-lg-7 col-md-6 ">
                             
                             <div class="about-text">
-                                <p>
-                                Le BEREG est non seulement le pionnier et leader des bureaux d’Etudes Algériens de par la certification professionnelle internationale de 23 architectes et ingénieurs par le CERTIPOT AUTORIZED TESTING CENTER, et ce dans le cadre de l’implémentation du Building Information Modeling (BIM), mais aussi, par sa première position en Afrique en tant qu’entité gouvernementale en full BIM (Maîtrise de Tous Corps d’Etat TCE : Architecture, Structure, Mécanique, Electricité, Plomberie)
-                                </p>
+                                <p><?= $text['Le BEREG est non'][$language]; ?></p>
+                                <br/><?= $text['A noter que'][$language]; ?></p>
                                 <br/>
-                                A noter que le BEREG a été félicité pour son initiative par BIM Africa, un organisme de la société civile (ONG) ayant pour mandat de permettre et de réglementer l’adoption et la mise en œuvre du BIM dans l’industrie de l’architecture, de l’engineering, et des opérations de constructions (AECO) à travers l’Afrique.
-
-                                </p>
-                                <br/>
-                                <p>
-                                A ce titre, l’Algérie a été choisie parmi les quatre (04) pays africains (Afrique du Sud, Nigéria, Ethiopie et l’Algérie) pour être inscrit dans le rapport BIM 2020 du mois d’Août sur l’Afrique, qui met en exergue diverses initiatives sur la transformation numérique de l’industrie du bâtiment en Afrique, en présentant le projet pilote de mise en œuvre du processus BIM au sein du BEREG.
-                                </p>
-                                <p> 
-                                Il est important de signaler aussi, que le rapport BIM Afrique 2020 est largement accessible aux experts et professionnels à travers l’Afrique et le reste du monde.</p>
-                                <p> 
+                                <p><?= $text['A ce titre,'][$language]; ?></p>
+                                <p> <?= $text['Il est important'][$language]; ?> <p> 
                                 
                             </div>
                         </div>

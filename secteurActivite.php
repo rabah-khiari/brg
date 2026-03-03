@@ -26,6 +26,17 @@
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
     </head> 
+<?php
+// Text dictionary
+$text = [
+
+'Secteurs d\'activité' => [
+    'fr' => "Secteurs d'activité",
+    'en' => "Fields of Activity"
+],
+
+];
+?>
 
     <body>
         <div class="wrapper">
@@ -44,7 +55,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2> Secteurs d'activité </h2>
+                            <h2> <?= $text['Secteurs d\'activité'][$language]; ?></h2>
                         </div>
 
                     </div>

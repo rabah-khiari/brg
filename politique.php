@@ -38,14 +38,46 @@
             
             <?php include ('incloude/navBare.php'); ?>
             <!-- Nav Bar End -->
-            
+
+           
+<?php
+
+// text dictionary
+$text = [
+  'Politique qualité' => [
+    'fr' => 'Politique qualité',
+    'en' => 'Quality Policy'
+],
+
+'Système Management Qualité' => [
+    'fr' => 'Système Management Qualité',
+    'en' => 'Quality Management System'
+],
+
+'A l’instar de' => [
+    'fr' => 'A l’instar de la quasi majorité des entreprises nationales et internationales, le BEREG, pour garantir la qualité de ses produits et services, a adopté le système management de la qualité (SMQ) ISO 9001 version d’abord 2008 ensuite version 2015 à compter de 2018.</p>',
+    'en' => 'Like the vast majority of national and international companies, B.E.R.E.G has adopted the Quality Management System (QMS) ISO 9001, first in its 2008 version and later in the 2015 version starting from 2018, to ensure the quality of its products and services.</p>'
+],
+
+'Cette démarche a' => [
+    'fr' => 'Cette démarche a contribué à renforcer la confiance de ses clients et à favoriser la culture d’amélioration continue dans un environnement économique de plus en plus exigeant et concurrentiel, incitant les entreprises à innover et à offrir les meilleures prestations possibles.',
+    'en' => 'This approach has helped strengthen client confidence and promote a culture of continuous improvement in an increasingly demanding and competitive economic environment, encouraging the company to innovate and provide the best possible services.'
+],
+
+'A travers les' => [
+    'fr' => 'A travers les processus du système management qualité, le BEREG peut désormais mesurer plusieurs indicateurs de performance parmi lesquels la satisfaction clients qui a atteint un taux appréciable en fin 2023 puisqu’il se situe à 86%.',
+    'en' => 'Through the quality management system processes, B.E.R.E.G can now measure several performance indicators, including customer satisfaction, which reached a satisfactory rate of 86% at the end of 2023.'
+],
+
+];
+?>
             <!-- Page Header Start -->
             <div class="page-header">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                                 <h2>Politique qualité</h2>
-                            <h3> Système Management Qualité </h>
+                                 <h2><?= $text['Politique qualité'][$language]; ?></h2>
+                            <h3> <?= $text['Système Management Qualité'][$language]; ?></h>
                             
                         </div>
                     
@@ -67,15 +99,12 @@
                         <div class="col-lg-7 col-md-6">
                             
                             <div class="about-text">
-                                <p>
-                                A l’instar de la quasi majorité des entreprises nationales et internationales, le BEREG, pour garantir la qualité de ses produits et services, a adopté le système management de la qualité (SMQ) ISO 9001 version d’abord 2008 ensuite version 2015 à compter de 2018.</p>
-                                <br/>
-                                Cette démarche a contribué à renforcer la confiance de ses clients et à favoriser la culture d’amélioration continue dans un environnement économique de plus en plus exigeant et concurrentiel, incitant les entreprises à innover et à offrir les meilleures prestations possibles.
+                                <p><?= $text['A l’instar de'][$language]; ?>
+                                <br/><?= $text['Cette démarche a'][$language]; ?>
                                 </p>
                                 <br/>
-                                <p>
-                                 A travers les processus du système management qualité, le BEREG peut désormais mesurer plusieurs indicateurs de performance parmi lesquels la satisfaction clients qui a atteint un taux appréciable en fin 2023 puisqu’il se situe à 86%.
-                                </p>
+                                <p><?= $text['A travers les'][$language]; ?>
+                                 </p>
 
                             </div>
                         </div>

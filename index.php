@@ -102,26 +102,7 @@ $text = [
     'fr' => 'Pôle de',
     'en' => 'Division'
   ],
-  'ccc' => [
-    'fr' => 'aaa',
-    'en' => 'aaa'
-  ],
-  'ccc' => [
-    'fr' => 'aaa',
-    'en' => 'aaa'
-  ],
-  'ccc' => [
-    'fr' => 'aaa',
-    'en' => 'aaa'
-  ],
-  'ccc' => [
-    'fr' => 'aaa',
-    'en' => 'aaa'
-  ],
-  'ccc' => [
-    'fr' => 'aaa',
-    'en' => 'aaa'
-  ],
+ 
   'ccc' => [
     'fr' => 'aaa',
     'en' => 'aaa'

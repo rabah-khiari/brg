@@ -1,19 +1,30 @@
+<?php
+$text = [
+    'Page_Title' => ['fr' => 'BEREG -À propos', 'en' => 'BEREG - About'],
+    'Staff_Total' => ['fr' => 'Le B.E.R.E.G dispose de 210 travailleurs dont ', 'en' => 'B.E.R.E.G has 210 employees, including '],
+    'Tech_Personnel' => ['fr' => ' Personnel Technique', 'en' => ' Technical Personnel'],
+    'Admin_Personnel' => ['fr' => 'Personnel Administratif ', 'en' => 'Administrative Personnel '],
+    'Staff_Dist' => ['fr' => 'Le personel technique est réparti comme suit : ', 'en' => 'The technical staff is distributed as follows: '],
+    'GC_Eng' => ['fr' => ' Ingénieurs GC ', 'en' => ' Civil Engineers '],
+    'Tech_Sup' => ['fr' => ' Techniciens et Techniciens Supérieurs', 'en' => ' Technicians and Senior Technicians'],
+    'Arch' => ['fr' => 'Architects', 'en' => 'Architects'],
+    'TCE_Eng' => ['fr' => ' Ingénieurs TCE', 'en' => ' All-Trades Engineers (TCE)'],
+];
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?= $language; ?>">
     <head>
         <meta charset="utf-8">
-        <title>BEREG -À propos</title>
+        <title><?= $text['Page_Title'][$language]; ?></title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
 
-        <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
 
-        <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-        <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
         <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
@@ -23,39 +34,26 @@
         <link href="lib/slick/slick.css" rel="stylesheet">
         <link href="lib/slick/slick-theme.css" rel="stylesheet">
 
-        <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
     </head>
 
     <body>
         <div class="wrapper">
  
-             <!-- Top Bar Start -->
-           <?php include ('incloude/topBare.php'); ?>
-            <!-- Top Bar End -->
-
-            <!-- Nav Bar Start -->
-            
+             <?php include ('incloude/topBare.php'); ?>
             <?php include ('incloude/navBare.php'); ?>
-            <!-- Nav Bar End -->
-            
-            <!-- Page Header Start -->
             <div class="page-header">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                                 <h2>Le B.E.R.E.G dispose de 210 travailleurs dont </h2>
+                                 <h2><?= $text['Staff_Total'][$language]; ?></h2>
                           
                         </div>
                     
                     </div>
                 </div>
             </div>
-            <!-- Page Header End -->
-
- <!-- ressource2 start -->
- 
- <br>
+            <br>
 <div class="row  ">
     <br><br>
     <div class="container ps-1 col-lg-7 col-md-10 col-sm-12 ">
@@ -69,7 +67,7 @@
                         <div class="fact-text col-lg-9 col-md-8 col-sm-12 ">
 
                             <h1 style="color: #3A3A3A ;" data-toggle="counter-up"> 145</h1>
-                            <h1 style="color: #3A3A3A ;"> Personnel Technique</h1>
+                            <h1 style="color: #3A3A3A ;"><?= $text['Tech_Personnel'][$language]; ?></h1>
                         </div>
 
             </div>
@@ -82,7 +80,7 @@
                         </div>
                         <div class="fact-text  col-lg-9 col-md-8 col-sm-12 "> 
                             <h1  style="color: #f3d009;" data-toggle="counter-up">65</h1>
-                            <h1  style="color: #f3d009;">Personnel Administratif </h1>
+                            <h1  style="color: #f3d009;"><?= $text['Admin_Personnel'][$language]; ?></h1>
                         </div>
             </div>
         </div>
@@ -90,26 +88,20 @@
     
 
 </div>
-    <!-- ressource2 End -->
-
- <!-- ressource start -->
-<br><br><br>
+    <br><br><br>
  
-<!-- Page Header Start -->
-            <div class="page-header">
+<div class="page-header">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                                 <h2>Le personel technique est réparti comme suit : </h2>
+                                 <h2><?= $text['Staff_Dist'][$language]; ?></h2>
                           
                         </div>
                     
                     </div>
                 </div>
             </div>
-            <!-- Page Header End -->
-
- <br>
+            <br>
 <div class="row  ">
     <br><br>
     <div class="container ps-1 col-lg-4 col-md-4 col-sm-12 ">
@@ -120,7 +112,7 @@
                         </div>
                         <div class="fact-text col-lg-8"> 
                             <h2  style="color: #F4A261;" data-toggle="counter-up">55</h2>
-                            <h2  style="color: #F4A261;"> Ingénieurs GC </h2>
+                            <h2  style="color: #F4A261;"><?= $text['GC_Eng'][$language]; ?></h2>
                         </div>
             </div>
         </div>
@@ -133,7 +125,7 @@
                         <div class="fact-text col-lg-9 col-md-6 col-sm-12">
                             
                             <h2 style="color: #A4D3A2 ;" data-toggle="counter-up">34</h2>
-                            <h2 style="color: #A4D3A2 ;"> Techniciens et Techniciens Supérieurs</h2>
+                            <h2 style="color: #A4D3A2 ;"><?= $text['Tech_Sup'][$language]; ?></h2>
                         </div>
             </div>
         </div>
@@ -141,12 +133,9 @@
         
     </div>
     <div class="container  col-lg-4 col-md-4 col-sm-12   wow fadeInUp">
-       
-        <!-- Footer Start -->
+        
         <?php include ('incloude/relativeCircle.php'); ?>
-        <!-- Footer End -->
-
-    </div>
+        </div>
     <div class="container ps-1 col-lg-4 col-md-4 col-sm-12 ">
       
         <br><br>
@@ -158,7 +147,7 @@
                         <div class="fact-text">
                            
                             <h2 style="color: #f3d009 ;" data-toggle="counter-up">40</h2>
-                            <h2 style="color: #f3d009 ;" >Architects</h2>
+                            <h2 style="color: #f3d009 ;" ><?= $text['Arch'][$language]; ?></h2>
                         </div>
             </div>
         </div>
@@ -172,7 +161,7 @@
                         <div class="fact-text">
                             
                             <h2  style="color: #88B7E3;" data-toggle="counter-up">16</h2>
-                            <h2  style="color: #88B7E3;" > Ingénieurs TCE</h2>
+                            <h2  style="color: #88B7E3;" ><?= $text['TCE_Eng'][$language]; ?></h2>
                         </div>
             </div>
         </div>
@@ -181,18 +170,10 @@
         
     </div>
 </div>
-    <!-- ressource End -->
-            
-           
-
-            <!-- Footer Start -->
-            <?php include ('incloude/footer.php'); ?>
-            <!-- Footer End -->
-
+    <?php include ('incloude/footer.php'); ?>
             <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
         </div>
 
-        <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
         <script src="lib/easing/easing.min.js"></script>
@@ -204,7 +185,6 @@
         <script src="lib/counterup/counterup.min.js"></script>
         <script src="lib/slick/slick.min.js"></script>
 
-        <!-- Template Javascript -->
         <script src="js/main.js"></script>
     </body>
 </html>

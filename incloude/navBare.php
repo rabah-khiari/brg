@@ -124,9 +124,9 @@ if (isset($_GET['lang']) && !in_array($_GET['lang'], $allowed_langs, true)) {
                         ?>
                         <!-- language -->
                     <?php if ($language == 'fr'): ?>
-                        <!-- <a class="nav-item nav-link" href="?lang=en"><i class="fa fa-language" aria-hidden="true"></i> Englais</a> -->
+                        <a class="nav-item nav-link" href="?lang=en"><i class="fa fa-language" aria-hidden="true"></i> Englais</a>
                     <?php else: ?>
-                        <!-- <a class="nav-item nav-link" href="?lang=fr"><i class="fa fa-language" aria-hidden="true"></i> Français</a> -->
+                        <a class="nav-item nav-link" href="?lang=fr"><i class="fa fa-language" aria-hidden="true"></i> Français</a>
                     <?php endif; ?>
                 </div>
                 

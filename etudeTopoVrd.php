@@ -39,13 +39,40 @@
             <?php include ('incloude/navBare.php'); ?>
             <!-- Nav Bar End -->
             
+<?php
+
+// text dictionary
+$text = [
+'Etudes Topographiques et VRD' => [
+    'fr' => ' Etudes Topographiques et VRD',
+    'en' => 'Topographic Studies and External Works (Roads & Utilities)'
+],
+
+'Le BEREG assure,' => [
+    'fr' => 'Le BEREG assure, dans le cadre de l’implantation de certains projets, les études topographiques et ce sous différents domaines : topographie d\'exécution et de contrôle, acquisition de données, cartographie, récolement, implantation.',
+    'en' => 'As part of the implementation of certain projects, B.E.R.E.G provides topographic studies in various areas, including execution and control surveying, data acquisition, mapping, as-built surveys, and site layout setting-out.'
+],
+
+'Le matériel numérique' => [
+    'fr' => 'Le matériel numérique dont dispose le BEREG permet de réaliser tout type d\'études topographiques et d\'en extraire des données très précises. Ces données font, ensuite, l’objet de traitement en utilisant des logiciels dédiés qui permettent de créer des modèles adaptés et d\'anticiper de nombreux besoins tels que l’ancrage des bâtiments, le traçage routier…etc.',
+    'en' => 'The digital equipment available at B.E.R.E.G enables the execution of all types of topographic studies and the extraction of highly accurate data. These data are then processed using dedicated software to create suitable models and anticipate various requirements such as building anchoring, road alignment, and other planning needs.'
+],
+
+'Pour les VRD' => [
+    'fr' => 'Pour les VRD (Voirie Réseaux Divers), le BEREG assure l’ensemble des aménagements nécessaires à la viabilisation des terrains au niveau des raccordements et branchements d’un projet de construction d’un ouvrage quelle que soit sa nature.',
+    'en' => 'Regarding external works (roads and utility networks), B.E.R.E.G ensures all necessary developments for land servicing, including connections and utility link-ups for construction projects, regardless of their nature.'
+],
+  
+];
+?>
+
             <!-- Page Header Start -->
             <div class="page-header">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                                  
-                            <h2> Etudes Topographiques et VRD </h2>
+                            <h2><?= $text['Etudes Topographiques et VRD'][$language]; ?> </h2>
                           
                             
                         </div>
@@ -69,15 +96,11 @@
                         <div class="col-lg-7 col-md-6">
                             
                             <div class="about-text">
-                                <p>
-                                Le BEREG assure, dans le cadre de l’implantation de certains projets, les études topographiques et ce sous différents domaines : topographie d'exécution et de contrôle, acquisition de données, cartographie, récolement, implantation.
+                                <p><?= $text['Le BEREG assure,'][$language]; ?>
+                               
                                 </p>
-                                <p>
-                                Le matériel numérique dont dispose le BEREG permet de réaliser tout type d'études topographiques et d'en extraire des données très précises. Ces données font, ensuite, l’objet de traitement en utilisant des logiciels dédiés qui permettent de créer des modèles adaptés et d'anticiper de nombreux besoins tels que l’ancrage des bâtiments, le traçage routier…etc.
-                                </p>
-                                <p>
-                                Pour les VRD (Voirie Réseaux Divers), le BEREG assure l’ensemble des aménagements nécessaires à la viabilisation des terrains au niveau des raccordements et branchements d’un projet de construction d’un ouvrage quelle que soit sa nature.
-                                </p>
+                                <p><?= $text['Le matériel numérique'][$language]; ?> </p>
+                                <p><?= $text['Pour les VRD'][$language]; ?> </p>
 
                             </div>
                         </div>
