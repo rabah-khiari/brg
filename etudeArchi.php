@@ -45,29 +45,33 @@
 $text = [
   'Etudes architecturales' => [
     'fr' => 'Etudes architecturales',
-    'en' => 'Architectural Studies'
+    'en' => 'Architectural Studies',
+    'ar' => 'الدراسات المعمارية',
 ],
 
 'L’étude architecturale est' => [
     'fr' => 'L’étude architecturale est une étape importante dans le processus de conception et de construction d’un bâtiment. Elle consiste à élaborer un projet de construction en prenant en compte de nombreux paramètres, tels que l’aspect esthétique, l’optimisation des espaces, les contraintes techniques et réglementaires, les caractéristiques géotechniques …etc.',
-    'en' => 'Architectural study is a key stage in the design and construction process of a building. It involves developing a construction project while taking into account numerous parameters such as aesthetic aspects, space optimization, technical and regulatory constraints, and geotechnical characteristics, among others.'
+    'en' => 'Architectural study is a key stage in the design and construction process of a building. It involves developing a construction project while taking into account numerous parameters such as aesthetic aspects, space optimization, technical and regulatory constraints, and geotechnical characteristics, among others.',
+    'ar' => 'تعد الدراسة المعمارية مرحلة هامة في عملية تصميم وبناء المباني. وهي تتمثل في إعداد مشروع بناء مع مراعاة العديد من المعايير، مثل الجانب الجمالي، تحسين المساحات، القيود التقنية والتنظيمية، والخصائص الجيوتقنية... إلخ.',
 ],
 
 'L’étude architecturale peut' => [
     'fr' => 'L’étude architecturale peut également inclure la réalisation de maquettes, de dessins en 3D et de simulations de l’environnement futur de l’ouvrage.',
-    'en' => 'Architectural study may also include the development of scale models, 3D drawings, and simulations of the future environment of the project.'
+    'en' => 'Architectural study may also include the development of scale models, 3D drawings, and simulations of the future environment of the project.',
+    'ar' => "يمكن أن تشمل الدراسة المعمارية أيضاً إنجاز المجسمات، والرسومات ثلاثية الأبعاد (\u{2067}3D\u{2069})، ومحاكاة للبيئة المستقبلية للمنشأة.",
 ],
 
 'Elle donne, par' => [
     'fr' => 'Elle donne, par conséquent, au maître d’ouvrage, un aperçu virtuel sur la fonctionnalité de la construction, sur les normes de sécurité à respecter, sur la qualité de vie procurée par l’ouvrage et sur l’aspect économique et environnemental de l’ouvrage.',
-    'en' => 'It therefore provides the project owner with a virtual overview of the building’s functionality, the applicable safety standards, the quality of life offered by the project, as well as its economic and environmental aspects.'
+    'en' => 'It therefore provides the project owner with a virtual overview of the building’s functionality, the applicable safety standards, the quality of life offered by the project, as well as its economic and environmental aspects.',
+    'ar' => 'وبناءً على ذلك، فهي تمنح صاحب المشروع نظرة افتراضية حول الجوانب الوظيفية للبناء، ومعايير السلامة الواجب احترامها، وجودة الحياة التي توفرها المنشأة، بالإضافة إلى الجانب الاقتصادي والبيئي للمشروع.',
 ],
 
 'A ce titre,' => [
     'fr' => 'A ce titre, le BEREG, à travers ses expériences cumulées tout au long des années de son existence, offre ses compétences en la matière et assure des prestations à la hauteur des exigences les plus élevés',
-    'en' => 'In this regard, B.E.R.E.G, drawing on its accumulated experience over the years, offers its expertise in this field and delivers services that meet the highest standards and requirements.'
+    'en' => 'In this regard, B.E.R.E.G, drawing on its accumulated experience over the years, offers its expertise in this field and delivers services that meet the highest standards and requirements.',
+    'ar' => "وفي هذا الصدد، يضع مكتب \u{2067}BEREG\u{2069}، من خلال خبراته المتراكمة عبر سنوات وجوده، كفاءاته في هذا المجال ويضمن تقديم خدمات ترقى إلى أعلى المتطلبات.",
 ],
-
 
 ];
 ?>
@@ -77,7 +81,7 @@ $text = [
                     <div class="row">
                         <div class="col-12">
                                  
-                            <h2><?= $text['Etudes architecturales'][$language]; ?> </h2>
+                            <h2 <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['Etudes architecturales'][$language]; ?> </h2>
                           
                             
                         </div>
@@ -101,10 +105,10 @@ $text = [
                         <div class="col-lg-7 col-md-6">
                             
                             <div class="about-text">
-                                <p><?= $text['L’étude architecturale est'][$language]; ?> </p>
-                                <p><?= $text['L’étude architecturale peut'][$language]; ?> </p>
-                                <p><?= $text['Elle donne, par'][$language]; ?> </p>
-                                <p><?= $text['A ce titre,'][$language]; ?> </p>
+                                <p <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['L’étude architecturale est'][$language]; ?> </p>
+                                <p <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['L’étude architecturale peut'][$language]; ?> </p>
+                                <p <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['Elle donne, par'][$language]; ?> </p>
+                                <p <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['A ce titre,'][$language]; ?> </p>
                             </div>
                         </div>
                     </div>

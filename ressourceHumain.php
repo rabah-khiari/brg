@@ -1,14 +1,50 @@
 <?php
 $text = [
-    'Page_Title' => ['fr' => 'BEREG -À propos', 'en' => 'BEREG - About'],
-    'Staff_Total' => ['fr' => 'Le B.E.R.E.G dispose de 210 travailleurs dont ', 'en' => 'B.E.R.E.G has 210 employees, including '],
-    'Tech_Personnel' => ['fr' => ' Personnel Technique', 'en' => ' Technical Personnel'],
-    'Admin_Personnel' => ['fr' => 'Personnel Administratif ', 'en' => 'Administrative Personnel '],
-    'Staff_Dist' => ['fr' => 'Le personel technique est réparti comme suit : ', 'en' => 'The technical staff is distributed as follows: '],
-    'GC_Eng' => ['fr' => ' Ingénieurs GC ', 'en' => ' Civil Engineers '],
-    'Tech_Sup' => ['fr' => ' Techniciens et Techniciens Supérieurs', 'en' => ' Technicians and Senior Technicians'],
-    'Arch' => ['fr' => 'Architects', 'en' => 'Architects'],
-    'TCE_Eng' => ['fr' => ' Ingénieurs TCE', 'en' => ' All-Trades Engineers (TCE)'],
+    'Page_Title' => [
+        'fr' => 'BEREG -À propos', 
+        'en' => 'BEREG - About',
+        'ar' => "عن مكتب \u{2067}BEREG\u{2069}",
+    ],
+    'Staff_Total' => [
+        'fr' => 'Le B.E.R.E.G dispose de 210 travailleurs dont ', 
+        'en' => 'B.E.R.E.G has 210 employees, including ',
+        'ar' => "يوظف مكتب \u{2067}B.E.R.E.G\u{2069} ما مجموعه \u{2067}210\u{2069} عاملاً، من بينهم:",
+    ],
+    'Tech_Personnel' => [
+        'fr' => ' Personnel Technique', 
+        'en' => ' Technical Personnel',
+        'ar' => 'طاقم تقني',
+    ],
+    'Admin_Personnel' => [
+        'fr' => 'Personnel Administratif ', 
+        'en' => 'Administrative Personnel ',
+        'ar' => 'طاقم إداري',
+    ],
+    'Staff_Dist' => [
+        'fr' => 'Le personel technique est réparti comme suit : ', 
+        'en' => 'The technical staff is distributed as follows: ',
+        'ar' => 'يتوزع الطاقم التقني كما يلي:',
+    ],
+    'GC_Eng' => [
+        'fr' => ' Ingénieurs GC ', 
+        'en' => ' Civil Engineers ',
+        'ar' => 'مهندسون في الهندسة المدنية',
+    ],
+    'Tech_Sup' => [
+        'fr' => ' Techniciens et Techniciens Supérieurs', 
+        'en' => ' Technicians and Senior Technicians',
+        'ar' => 'تقنيون وتقنيون سامون',
+    ],
+    'Arch' => [
+        'fr' => 'Architects', 
+        'en' => 'Architects',
+        'ar' => 'مهندسون معماريون',
+    ],
+    'TCE_Eng' => [
+        'fr' => ' Ingénieurs TCE', 
+        'en' => ' All-Trades Engineers (TCE)',
+        'ar' => "مهندسون في جميع تخصصات البناء (\u{2067}TCE\u{2069})",
+    ],
 ];
 ?>
 
@@ -16,7 +52,7 @@ $text = [
 <html lang="<?= $language; ?>">
     <head>
         <meta charset="utf-8">
-        <title><?= $text['Page_Title'][$language]; ?></title>
+        <title ><?= $text['Page_Title'][$language]; ?></title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
@@ -46,7 +82,7 @@ $text = [
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                                 <h2><?= $text['Staff_Total'][$language]; ?></h2>
+                                 <h2 <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?> ><?= $text['Staff_Total'][$language]; ?></h2>
                           
                         </div>
                     
@@ -67,7 +103,7 @@ $text = [
                         <div class="fact-text col-lg-9 col-md-8 col-sm-12 ">
 
                             <h1 style="color: #3A3A3A ;" data-toggle="counter-up"> 145</h1>
-                            <h1 style="color: #3A3A3A ;"><?= $text['Tech_Personnel'][$language]; ?></h1>
+                            <h1 style="color: #3A3A3A ;" <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['Tech_Personnel'][$language]; ?></h1>
                         </div>
 
             </div>
@@ -80,7 +116,7 @@ $text = [
                         </div>
                         <div class="fact-text  col-lg-9 col-md-8 col-sm-12 "> 
                             <h1  style="color: #f3d009;" data-toggle="counter-up">65</h1>
-                            <h1  style="color: #f3d009;"><?= $text['Admin_Personnel'][$language]; ?></h1>
+                            <h1  style="color: #f3d009;" <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['Admin_Personnel'][$language]; ?></h1>
                         </div>
             </div>
         </div>
@@ -94,7 +130,7 @@ $text = [
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                                 <h2><?= $text['Staff_Dist'][$language]; ?></h2>
+                                 <h2 <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['Staff_Dist'][$language]; ?></h2>
                           
                         </div>
                     
@@ -112,7 +148,7 @@ $text = [
                         </div>
                         <div class="fact-text col-lg-8"> 
                             <h2  style="color: #F4A261;" data-toggle="counter-up">55</h2>
-                            <h2  style="color: #F4A261;"><?= $text['GC_Eng'][$language]; ?></h2>
+                            <h2  style="color: #F4A261;" <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['GC_Eng'][$language]; ?></h2>
                         </div>
             </div>
         </div>
@@ -125,7 +161,7 @@ $text = [
                         <div class="fact-text col-lg-9 col-md-6 col-sm-12">
                             
                             <h2 style="color: #A4D3A2 ;" data-toggle="counter-up">34</h2>
-                            <h2 style="color: #A4D3A2 ;"><?= $text['Tech_Sup'][$language]; ?></h2>
+                            <h2 style="color: #A4D3A2 ;" <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['Tech_Sup'][$language]; ?></h2>
                         </div>
             </div>
         </div>
@@ -147,7 +183,7 @@ $text = [
                         <div class="fact-text">
                            
                             <h2 style="color: #f3d009 ;" data-toggle="counter-up">40</h2>
-                            <h2 style="color: #f3d009 ;" ><?= $text['Arch'][$language]; ?></h2>
+                            <h2 style="color: #f3d009 ;" <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['Arch'][$language]; ?></h2>
                         </div>
             </div>
         </div>
@@ -161,7 +197,7 @@ $text = [
                         <div class="fact-text">
                             
                             <h2  style="color: #88B7E3;" data-toggle="counter-up">16</h2>
-                            <h2  style="color: #88B7E3;" ><?= $text['TCE_Eng'][$language]; ?></h2>
+                            <h2  style="color: #88B7E3;" <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['TCE_Eng'][$language]; ?></h2>
                         </div>
             </div>
         </div>

@@ -45,14 +45,15 @@ $text = [
   
 'Projets En cours' => [
     'fr' => 'Projets En cours',
-    'en' => 'Ongoing Projects'
+    'en' => 'Ongoing Projects',
+    'ar' => 'المشاريع قيد الإنجاز',
 ],
 
 'cette page est en cours de construction...' => [
     'fr' => 'cette page est en cours de construction...',
-    'en' => 'This page is under construction...'
+    'en' => 'This page is under construction...',
+    'ar' => 'هذه الصفحة قيد الإنجاز... (مثل مشاريعنا تماماً)',
 ],
-
 
   
 ];
@@ -63,7 +64,7 @@ $text = [
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2> <?= $text['Projets En cours'][$language]; ?>  </h2>
+                            <h2 <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>> <?= $text['Projets En cours'][$language]; ?>  </h2>
                             
                         </div>
                         
@@ -89,7 +90,7 @@ $text = [
             </style>
             <div class="container">
                 <div class="icon">🚧</div>
-                <div class="message"> <?= $text['cette page est en cours de construction...'][$language]; ?> </div>
+                <div class="message" <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>> <?= $text['cette page est en cours de construction...'][$language]; ?> </div>
             </div>
             <br><br><br><br>
            

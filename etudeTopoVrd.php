@@ -45,22 +45,26 @@
 $text = [
 'Etudes Topographiques et VRD' => [
     'fr' => ' Etudes Topographiques et VRD',
-    'en' => 'Topographic Studies and External Works (Roads & Utilities)'
+    'en' => 'Topographic Studies and External Works (Roads & Utilities)',
+    'ar' => 'الدراسات الطبوغرافية والطرق والشبكات المختلفة (VRD)',
 ],
 
 'Le BEREG assure,' => [
     'fr' => 'Le BEREG assure, dans le cadre de l’implantation de certains projets, les études topographiques et ce sous différents domaines : topographie d\'exécution et de contrôle, acquisition de données, cartographie, récolement, implantation.',
-    'en' => 'As part of the implementation of certain projects, B.E.R.E.G provides topographic studies in various areas, including execution and control surveying, data acquisition, mapping, as-built surveys, and site layout setting-out.'
+    'en' => 'As part of the implementation of certain projects, B.E.R.E.G provides topographic studies in various areas, including execution and control surveying, data acquisition, mapping, as-built surveys, and site layout setting-out.',
+    'ar' => "يضمن مكتب \u{2067}BEREG\u{2069}، في إطار توطين بعض المشاريع، الدراسات الطبوغرافية في مختلف المجالات: طبوغرافيا التنفيذ والرقابة، جمع البيانات، رسم الخرائط، المسح النهائي (Récolement)، والتوقيع على الأرض.",
 ],
 
 'Le matériel numérique' => [
     'fr' => 'Le matériel numérique dont dispose le BEREG permet de réaliser tout type d\'études topographiques et d\'en extraire des données très précises. Ces données font, ensuite, l’objet de traitement en utilisant des logiciels dédiés qui permettent de créer des modèles adaptés et d\'anticiper de nombreux besoins tels que l’ancrage des bâtiments, le traçage routier…etc.',
-    'en' => 'The digital equipment available at B.E.R.E.G enables the execution of all types of topographic studies and the extraction of highly accurate data. These data are then processed using dedicated software to create suitable models and anticipate various requirements such as building anchoring, road alignment, and other planning needs.'
+    'en' => 'The digital equipment available at B.E.R.E.G enables the execution of all types of topographic studies and the extraction of highly accurate data. These data are then processed using dedicated software to create suitable models and anticipate various requirements such as building anchoring, road alignment, and other planning needs.',
+    'ar' => "تسمح المعدات الرقمية التي يتوفر عليها مكتب \u{2067}BEREG\u{2069} بإنجاز جميع أنواع الدراسات الطبوغرافية واستخراج بيانات دقيقة للغاية. تتم معالجة هذه البيانات لاحقاً باستخدام برامج متخصصة تتيح إنشاء نماذج مناسبة واستباق العديد من الاحتياجات مثل تثبيت المباني، وتخطيط الطرق، وغيرها.",
 ],
 
 'Pour les VRD' => [
     'fr' => 'Pour les VRD (Voirie Réseaux Divers), le BEREG assure l’ensemble des aménagements nécessaires à la viabilisation des terrains au niveau des raccordements et branchements d’un projet de construction d’un ouvrage quelle que soit sa nature.',
-    'en' => 'Regarding external works (roads and utility networks), B.E.R.E.G ensures all necessary developments for land servicing, including connections and utility link-ups for construction projects, regardless of their nature.'
+    'en' => 'Regarding external works (roads and utility networks), B.E.R.E.G ensures all necessary developments for land servicing, including connections and utility link-ups for construction projects, regardless of their nature.',
+    'ar' => "بخصوص الطرق والشبكات المختلفة (\u{2067}VRD\u{2069})، يضمن مكتب \u{2067}BEREG\u{2069} كافة التجهيزات اللازمة لتهيئة الأراضي وربطها بمختلف الشبكات لأي مشروع بناء مهما كانت طبيعته.",
 ],
   
 ];
@@ -72,7 +76,7 @@ $text = [
                     <div class="row">
                         <div class="col-12">
                                  
-                            <h2><?= $text['Etudes Topographiques et VRD'][$language]; ?> </h2>
+                            <h2 <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['Etudes Topographiques et VRD'][$language]; ?> </h2>
                           
                             
                         </div>
@@ -96,11 +100,11 @@ $text = [
                         <div class="col-lg-7 col-md-6">
                             
                             <div class="about-text">
-                                <p><?= $text['Le BEREG assure,'][$language]; ?>
+                                <p <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['Le BEREG assure,'][$language]; ?>
                                
                                 </p>
-                                <p><?= $text['Le matériel numérique'][$language]; ?> </p>
-                                <p><?= $text['Pour les VRD'][$language]; ?> </p>
+                                <p <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['Le matériel numérique'][$language]; ?> </p>
+                                <p <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['Pour les VRD'][$language]; ?> </p>
 
                             </div>
                         </div>

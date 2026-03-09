@@ -45,7 +45,7 @@
                     <div class="row">
                         <div class="col-12">
                                  
-                            <h2> Appel d’Offres </h2>
+                            <h2>  <?= $language == 'fr' ? 'Appel d’Offres' : ($language == 'ar' ? 'طلبات العروض' : 'Tenders'); ?> </h2>
                           
                             
                         </div>

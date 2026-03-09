@@ -2,36 +2,85 @@
 $text = [
     'Contact_Title_Tab' => [
         'fr' => 'BEREG - Contact',
-        'en' => 'BEREG - Contact Us'
+        'en' => 'BEREG - Contact Us',
+        'ar' => "مكتب \u{2067}BEREG\u{2069} - اتصل بنا",
     ],
     'Contact_Header' => [
         'fr' => 'Contactez-nous',
-        'en' => 'Contact Us'
+        'en' => 'Contact Us',
+        'ar' => 'اتصل بنا',
+    ],
+    'Phone' => [
+        'fr' => 'Téléphone',
+        'en' => 'Phone',
+        'ar' => 'الهاتف',
+    ],
+    'Email' => [
+        'fr' => 'Email',
+        'en' => 'Email',
+        'ar' => 'البريد الإلكتروني',
     ],
     'Main_Office' => [
         'fr' => 'Direction Générale',
-        'en' => 'General Management'
+        'en' => 'General Management',
+        'ar' => 'المديرية العامة',
     ],
     'Location_Label' => [
         'fr' => 'Localisation',
-        'en' => 'Location'
+        'en' => 'Location',
+        'ar' => 'الموقع',
     ],
     'Our_Units' => [
         'fr' => 'Nos Unités',
-        'en' => 'Our Units'
+        'en' => 'Our Units',
+        'ar' => 'وحداتنا',
     ],
     'Unit_Alger' => [
         'fr' => "Unité d'Alger",
-        'en' => 'Algiers Unit'
+        'en' => 'Algiers Unit',
+        'ar' => 'وحدة الجزائر',
     ],
     'Construction_Msg' => [
         'fr' => 'en cours de construction',
-        'en' => 'under construction'
+        'en' => 'under construction',
+        'ar' => 'قيد الإنجاز',
     ],
     'Pole_Prefix' => [
         'fr' => 'Pole de ',
-        'en' => 'Pole of '
-    ]
+        'en' => 'Pole of ',
+        'ar' => 'قطب ',
+    ],
+    'Pole_setif' => [
+        'fr' => "Pole de Sétif",
+        'en' => 'Sétif Pole',
+        'ar' => 'قطب سطيف',
+    ],
+    "Pole_Adrar" => [
+        'fr' => "Pole d'Adrar",
+        'en' => 'Adrar Pole',
+        'ar' => 'قطب أدرار',
+    ],
+    "Pole_Tlemcen" => [
+        'fr' => "Pole de Tlemcen",
+        'en' => 'Tlemcen Pole',
+        'ar' => 'قطب تلمسان',
+    ],
+    "Pole_Tiaret" => [
+        'fr' => "Pole de Tiaret",
+        'en' => 'Tiaret Pole',
+        'ar' => 'قطب تيارت',
+    ],
+    "Pole_Chlef" => [
+        'fr' => "Pole de Chlef",
+        'en' => 'Chlef Pole',
+        'ar' => 'قطب شلف',
+    ],
+    "Pole_Tizi-Ouzou" => [
+        'fr' => "Pole de Tizi-Ouzou",
+        'en' => 'Tizi-Ouzou Pole',
+        'ar' => 'قطب تيزي وزو'
+        ],
+
 ];
 ?>
 
@@ -91,7 +140,7 @@ $text = [
                                 <div class="contact-item">
                                     <i class="flaticon-call"></i>
                                     <div class="contact-text">
-                                        <h2>Phone</h2>
+                                        <h2> <?= $text['Phone'][$language]; ?> </h2>
                                         <p>020 41 60 14 - 020 41 60 15</p>
                                         <p>FAX : 020 41 60 16</p>
                                     </div>
@@ -99,7 +148,7 @@ $text = [
                                 <div class="contact-item">
                                     <i class="flaticon-send-mail"></i>
                                     <div class="contact-text">
-                                        <h2>Email</h2>
+                                        <h2><?= $text['Email'][$language]; ?></h2>
                                         <p>contact@bereg.dz</p>
                                     </div>
                                 </div>
@@ -143,7 +192,7 @@ $text = [
                                 <div class="card wow fadeInLeft" data-wow-delay="0.1s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne">
-                                            <?= $text['Pole_Prefix'][$language]; ?>Sétif
+                                            <?= $text['Pole_setif'][$language]; ?>
                                         </a>
                                     </div>
                                     <div id="collapseOne" class="collapse" data-parent="#accordion-1">
@@ -159,7 +208,7 @@ $text = [
                                 <div class="card wow fadeInLeft" data-wow-delay="0.1s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne2">
-                                            <?= $text['Pole_Prefix'][$language]; ?>Adrar
+                                            <?= $text['Pole_Adrar'][$language]; ?>
                                         </a>
                                     </div>
                                     <div id="collapseOne2" class="collapse" data-parent="#accordion-1">
@@ -175,7 +224,7 @@ $text = [
                                 <div class="card wow fadeInLeft" data-wow-delay="0.2s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-toggle="collapse" href="#collapseTwo">
-                                        <?= $text['Pole_Prefix'][$language]; ?>Tlemcen
+                                        <?= $text['Pole_Tlemcen'][$language]; ?>
                                         </a>
                                     </div>
                                     <div id="collapseTwo" class="collapse" data-parent="#accordion-1">
@@ -195,7 +244,7 @@ $text = [
                                 <div class="card wow fadeInRight" data-wow-delay="0.1s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-toggle="collapse" href="#collapseSix">
-                                        <?= $text['Pole_Prefix'][$language]; ?>Tiaret 
+                                        <?= $text['Pole_Tiaret'][$language]; ?>
                                         </a>
                                     </div>
                                     <div id="collapseSix" class="collapse" data-parent="#accordion-2">
@@ -212,7 +261,7 @@ $text = [
                                 <div class="card wow fadeInRight" data-wow-delay="0.5s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-toggle="collapse" href="#collapseTen">
-                                            <?= $text['Pole_Prefix'][$language]; ?>Chlef
+                                            <?= $text['Pole_Chlef'][$language]; ?>
                                         </a>
                                     </div>
                                     <div id="collapseTen" class="collapse" data-parent="#accordion-2">
@@ -228,7 +277,7 @@ $text = [
                                 <div class="card wow fadeInRight" data-wow-delay="0.5s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-toggle="collapse" href="#collapseElv">
-                                        <?= $text['Pole_Prefix'][$language]; ?>Tizi-Ouzou
+                                        <?= $text['Pole_Tizi-Ouzou'][$language]; ?>
                                         </a>
                                     </div>
                                     <div id="collapseElv" class="collapse" data-parent="#accordion-2">

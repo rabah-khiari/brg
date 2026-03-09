@@ -1,5 +1,22 @@
  <?php
 session_start();
+if(isset($_GET['lang']))
+{
+    $language = $_GET['lang'];
+    
+    setcookie('lang', $language, time() + 3600*24*30, '/');
+    $_SESSION['language'] = $language;
+
+    header("Location: ".$_SERVER['PHP_SELF']);
+}
+else if(isset($_COOKIE['lang']))
+{
+    $language = $_COOKIE['lang'];
+}
+else
+{
+    $language = 'fr';
+}
 ?>
  <!-- Top Bar Start -->
  <div class="top-bar">
@@ -16,8 +33,8 @@ session_start();
                         <div class="col-lg-8 col-md-6 d-none d-lg-block ">
                             <div class="text-center">
                              
-                                <p class="mb-0 mt-0" ><?= $language=='fr' ? 'Ministre de l\'Habitat, de l\'Urbanisme et de la Ville et de l\'Aménagement du Territoire ' : 'Ministry of Housing, Urban Planning, City and Territorial Development'; ?> </p>
-                                <a class="mb-0"  href="https://gee.dz/"> <?= $language=='fr' ? ' Groupe Etudes & Engineering' : 'Studies and Engineering Group'; ?>  </a>
+                                <p class="mb-0 mt-0" ><?= $language == 'fr' ? 'Ministre de l\'Habitat, de l\'Urbanisme et de la Ville et de l\'Aménagement du Territoire' : ($language == 'ar' ? 'وزارة السكن والعمران والمدينة وإصلاح الإقليم' : 'Ministry of Housing, Urban Planning, City and Territorial Development'); ?> </p>
+                                <a class="mb-0"  href="https://gee.dz/"> <?= $language == 'fr' ? ' Groupe Etudes & Engineering' : ($language == 'ar' ? ' مجمع الدراسات والهندسة' : 'Studies and Engineering Group'); ?>  </a>
                                 <h6 class="mb-0 mt-0" ><?= $language=='fr' ? ' Bureau d\'Etudes de Recherches et d\'Engineering Général' : 'Engineering, Research and Studies Office'; ?></h6>
                                 <a class="mb-0"  >مكتب الدراسات و الابحاث و الاعمال الهندسية العامة</a>
                             </div>

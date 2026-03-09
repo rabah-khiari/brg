@@ -45,68 +45,100 @@
 $text = [
   'Bâtir lavenir' => [
     'fr' => "Bâtir l'avenir",
-    'en' => "Build the Future"
-  ],
-  'Nous donnons vie à vos projets' => [
+    'en' => "Build the Future",
+    'ar' => "بناء المستقبل"
+],
+'Nous donnons vie à vos projets' => [
     'fr' => 'Nous donnons vie à vos projets',
-    'en' => 'We Bring Your Projects to Life'
-  ],
-  'Votre confiance en nous' => [
+    'en' => 'We Bring Your Projects to Life',
+    'ar' => 'نحن نمنح الحياة لمشاريعكم'
+],
+'Votre confiance en nous' => [
     'fr' => 'Votre confiance en nous',
-    'en' => 'Your Trust in Us'
-  ],
-  'La clé de votre réussite' => [
+    'en' => 'Your Trust in Us',
+    'ar' => 'ثقتكم بنا'
+],
+'La clé de votre réussite' => [
     'fr' => 'La clé de votre réussite',
-    'en' => 'The Key to Your Success'
-  ],
-  'Expérience avérée' => [
+    'en' => 'The Key to Your Success',
+    'ar' => 'مفتاح نجاحكم'
+],
+'Expérience avérée' => [
     'fr' => 'Expérience avérée',
-    'en' => 'Proven Experience'
-  ],
-  'Les 56 années d’existence' => [
-    'fr' => 'Les 56 années d’existence du BEREG, lui ont permis d’acquérir une expérience indéniable et une notoriété dans le domaine des études d’ingénierie, de conception et d’architecture des ouvrages, 
-                                        tout type confondu, ainsi que le contrôle et le suivi des réalisations de ces derniers.',
-    'en' => 'With over 56 years of existence, BEREG has gained undeniable experience and a strong reputation in the fields of engineering studies, design, and architectural projects of all types, as well as in the supervision and quality control of their implementation.'
-  ],
-  'Personnel qualifié' => [
+    'en' => 'Proven Experience',
+    'ar' => 'خبرة مثبتة'
+],
+'Les 56 années d’existence' => [
+    'fr' => 'Les 56 années d’existence du BEREG, lui ont permis d’acquérir une expérience indéniable et une notoriété dans le domaine des études d’ingénierie, de conception et d’architecture des ouvrages, tout type confondu, ainsi que le contrôle et le suivi des réalisations de ces derniers.',
+    'en' => 'With over 56 years of existence, BEREG has gained undeniable experience and a strong reputation in the fields of engineering studies, design, and architectural projects of all types, as well as in the supervision and quality control of their implementation.',
+    'ar' => 'على مدار 56 سنة من الوجود، مكّن ذلك <span dir="ltr">BEREG</span> من اكتساب خبرة راسخة وسمعة متميزة في مجال الدراسات الهندسية والتصميم والهندسة المعمارية لمختلف أنواع المشاريع، إضافةً إلى مراقبة ومتابعة إنجازها.'
+],
+
+'Personnel qualifié' => [
     'fr' => 'Personnel qualifié',
-    'en' => 'Qualified Personnel'
-  ],
-  'Pour la réalisation des études' => [
-    'fr' => 'Pour la réalisation des études et du suivi des projets acquis, le BEREG dispose d’un personnel technique qualifié doté de compétences avérées multidisciplinaires. Ces dernières permettent, à ce personnel,
-            d’atteindre des performances optimales en termes de qualité et de délais.',
-    'en' => 'To carry out project studies and supervision, BEREG relies on a highly qualified technical team with multidisciplinary expertise, enabling optimal performance in terms of quality and timelines.'
-  ],
-  'Formation continue' => [
+    'en' => 'Qualified Personnel',
+    'ar' => 'طاقم مؤهل'
+],
+'Pour la réalisation des études' => [
+    'fr' => 'Pour la réalisation des études et du suivi des projets acquis, le BEREG dispose d’un personnel technique qualifié doté de compétences avérées multidisciplinaires. Ces dernières permettent, à ce personnel, d’atteindre des performances optimales en termes de qualité et de délais.',
+    'en' => 'To carry out project studies and supervision, BEREG relies on a highly qualified technical team with multidisciplinary expertise, enabling the delivery of optimal performance in terms of high quality and stringent timelines..',
+    'ar' => 'لإنجاز الدراسات ومتابعة المشاريع، يعتمد <span dir="ltr">BEREG</span> على طاقم تقني مؤهل يتمتع بكفاءات متعددة التخصصات، مما يتيح تحقيق أداء أمثل من حيث الجودة واحترام الآجال.'
+],
+'Formation continue' => [
     'fr' => 'Formation continue',
-    'en' => 'Continuous Training'
-  ],
-  'Outre les exigences académiques' => [
-    'fr' => 'Outre les exigences académiques et professionnelles au recrutement, le personnel du BEREG, et en particulier, le personnel 
-                                        technique, bénéficie dans le cadre de la formation continue des formations courtes, recyclages et séminaires voire de formations diplômantes telle que la formation BIM ',
-    'en' => 'Beyond academic and professional requirements at recruitment, BEREG’s staff, particularly the technical team, benefit from continuous professional development, including short training programs, refresher courses, seminars, and even degree programs such as BIM certification.'
-  ],
-  'Nos Unités' => [
+    'en' => 'Continuous Training',
+    'ar' => 'التكوين المستمر'
+],
+'Outre les exigences académiques' => [
+    'fr' => 'Outre les exigences académiques et professionnelles au recrutement, le personnel du BEREG, et en particulier, le personnel technique, bénéficie dans le cadre de la formation continue des formations courtes, recyclages et séminaires voire de formations diplômantes telle que la formation BIM ',
+    'en' => 'Beyond academic and professional recruitment requirements, BEREG’s staff particularly the technical team benefit from continuous development, including training programs, refresher courses, seminars, and BIM certification degree programs.',
+    'ar' => 'إلى جانب المتطلبات الأكاديمية والمهنية عند التوظيف، يستفيد طاقم <span dir="ltr">BEREG.</span> وخاصة التقنيين، في إطار التكوين المستمر من دورات تدريبية قصيرة، ودورات تجديد معلومات، وندوات، بل وحتى تكوينات مؤهلة مثل تكوين <span dir="ltr">BIM</span>'
+],
+'Nos Unités' => [
     'fr' => 'Nos Unités',
-    'en' => 'Our Units'
-  ],
-  'Direction Générale' => [
+    'en' => 'Our Units',
+    'ar' => 'وحداتنا'
+],
+'Direction Générale' => [
     'fr' => 'Direction Générale',
-    'en' => 'Head Office'
-  ],
-  'Unité siège' => [
+    'en' => 'Head Office',
+    'ar' => 'المديرية العامة'
+],
+'Unité siège' => [
     'fr' => 'Unité siège',
-    'en' => 'Main Unit'
-  ],
-  'Pôle de' => [
-    'fr' => 'Pôle de',
-    'en' => 'Division'
-  ],
- 
-  'ccc' => [
-    'fr' => 'aaa',
-    'en' => 'aaa'
-  ],
+    'en' => 'Main Unit',
+    'ar' => 'الوحدة الرئيسية'
+],
+'Direction Générale ALGER -Bab Ezzouar' => [
+    'fr' => 'Pôle de ALGER -Bab Ezzouar',
+    'en' => 'Division of ALGER -Bab Ezzouar',
+    'ar' => 'مركز الجزائر-باب الزوار'
+],
+'Pôle de Tizi-Ouzou' => [
+    'fr' => 'Pôle de Tizi-Ouzou',
+    'en' => 'Division of Tizi-Ouzou',
+    'ar' => "مركز تيزي وزو"
+],
+'Pôle de Setif' => [
+    'fr' => 'Pôle de Setif',
+    'en' => 'Division of Setif',
+    'ar' =>"مركز سطيف",
+],
+'Pôle de Adrar' => [
+    'fr' => 'Pôle de Adrar',
+    'en' => 'Division of Adrar',
+    'ar' =>"مركز أدرار",
+],
+'Pôle de Chlef' => [
+    'fr' => 'Pôle de Chlef',
+    'en' => 'Division of Chlef',
+    'ar' => 'مركز شلف'
+],
+'Pôle de Tiaret' => [
+    'fr' => 'Pôle de Tiaret',
+    'en' => 'Division of Tiaret',
+    'ar' => 'مركز تيارت'
+],
   
 ];
 ?>
@@ -225,15 +257,15 @@ $text = [
 
                         <div class="col-lg-4 col-md-6">
                             <div  class="about-text">
-                                    <h5><?= $text['Direction Générale'][$language]; ?> <span style="font-weight: bold;font-size: 20px;"> ALGER -Bab Ezzouar </span></h5>
-                                    <p><?= $text['Unité siège'][$language]; ?><span style="font-weight: bold;font-size: 20px;">  Alger</span></p>
-                                   <p><?= $text['Pôle de'][$language]; ?><span style="font-weight: bold;font-size: 20px;"> Telemcen </span></p>
+                                    <h5><?= $text['Direction Générale ALGER -Bab Ezzouar'][$language]; ?> <span style="font-weight: bold;font-size: 20px;"> </span></h5>
+                                    <p><?= $text['Unité siège Alger'][$language]; ?><span style="font-weight: bold;font-size: 20px;">  </span></p>
+                                   <p><?= $text['Pôle de Telemcen'][$language]; ?><span style="font-weight: bold;font-size: 20px;">  </span></p>
 
-                                   <p> <?= $text['Pôle de'][$language]; ?><span style="font-weight: bold;font-size: 20px;"> Tizi-Ouzou </span></p>
-                                   <p> <?= $text['Pôle de'][$language]; ?><span style="font-weight: bold;font-size: 20px;"> Setif </span></p>
-                                   <p> <?= $text['Pôle de'][$language]; ?><span style="font-weight: bold;font-size: 20px;"> Adrar </span></p>
-                                   <p> <?= $text['Pôle de'][$language]; ?><span style="font-weight: bold;font-size: 20px;"> Chlef </span></p>
-                                   <p> <?= $text['Pôle de'][$language]; ?><span style="font-weight: bold;font-size: 20px;"> Tiaret </span></p>
+                                   <p> <?= $text['Pôle de Tizi-Ouzou'][$language]; ?><span style="font-weight: bold;font-size: 20px;">  </span></p>
+                                   <p> <?= $text['Pôle de Setif'][$language]; ?><span style="font-weight: bold;font-size: 20px;">  </span></p>
+                                   <p> <?= $text['Pôle de Adrar'][$language]; ?><span style="font-weight: bold;font-size: 20px;">  </span></p>
+                                   <p> <?= $text['Pôle de Chlef'][$language]; ?><span style="font-weight: bold;font-size: 20px;">  </span></p>
+                                   <p> <?= $text['Pôle de Tiaret'][$language]; ?><span style="font-weight: bold;font-size: 20px;">  </span></p>
 
                             </div>
                         </div>

@@ -2,31 +2,36 @@
 $text =  [
     'Tech_Means_Title' => [
         'fr' => 'Moyens Techniques',
-        'en' => 'Technical Resources'
+        'en' => 'Technical Resources',
+        'ar' => 'الوسائل التقنية',
     ],
     'Software_Label' => [
         'fr' => 'Logiciels',
-        'en' => 'Software'
+        'en' => 'Software',
+        'ar' => 'البرمجيات',
     ],
     'Topo_Equipment' => [
         'fr' => 'Materiels de Topographie',
-        'en' => 'Topography Equipment'
+        'en' => 'Topography Equipment',
+        'ar' => 'عتاد مساحة الأراضي (الطبوغرافيا)',
     ],
     'Repro_Equipment' => [
         'fr' => 'Matériels de Repographie',
-        'en' => 'Reprography Equipment'
+        'en' => 'Reprography Equipment',
+        'ar' => 'عتاد النسخ والطباعة (الريبروغرافيا)',
     ],
     'Project_In_Progress' => [
         'fr' => 'Projet en cours',
-        'en' => 'Current Projects'
-    ]
+        'en' => 'Current Projects',
+        'ar' => 'المشاريع الجاري تنفيذها',
+    ],
 ];
 ?>
 <!DOCTYPE html>
 <html lang="<?= $language; ?>">
     <head>
         <meta charset="utf-8">
-        <title><?= $text['Project_In_Progress'][$language]; ?></title>
+        <title <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['Project_In_Progress'][$language]; ?></title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
@@ -55,7 +60,7 @@ $text =  [
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2><?= $text['Tech_Means_Title'][$language]; ?></h2>
+                            <h2 <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['Tech_Means_Title'][$language]; ?></h2>
                             
                         </div>
                         
@@ -73,7 +78,7 @@ $text =  [
                             <div id="accordion-1">
                                 <div class="card wow fadeInLeft shadow" data-wow-delay="0.1s">
                                     <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseOneh">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseOneh" <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>>
                                         <?= $text['Software_Label'][$language]; ?> 
                                         </a>
                                     </div>
@@ -92,7 +97,7 @@ $text =  [
                                 </div>
                                 <div class="card wow fadeInLeft shadow" data-wow-delay="0.1s">
                                     <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapsetree">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapsetree" <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>>
                                         <?= $text['Topo_Equipment'][$language]; ?> 
                                         </a>
                                     </div>
@@ -109,7 +114,7 @@ $text =  [
                                 </div>
                                 <div class="card wow fadeInLeft shadow" data-wow-delay="0.1s">
                                     <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapsetwo">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapsetwo" <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>> 
                                         <?= $text['Repro_Equipment'][$language]; ?> 
                                         </a>
                                     </div>

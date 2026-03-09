@@ -45,14 +45,15 @@
 $text = [
 'Nos projets' => [
     'fr' => 'Nos projets',
-    'en' => 'Our Projects'
+    'en' => 'Our Projects',
+    'ar' => 'مشاريعنا',
 ],
 
 'Le BEREG a réalisée' => [
     'fr' => 'Le BEREG a réalisée depuis sa création plus de 1000 projets en étude et suivi',
-    'en' => 'Since its creation, B.E.R.E.G has completed more than 1000 design and supervision projects'
+    'en' => 'Since its creation, B.E.R.E.G has completed more than 1000 design and supervision projects',
+    'ar' => "أنجز مكتب \u{2067}BEREG\u{2069} منذ نشأته أكثر من \u{2067}1000\u{2069} مشروع في مجال الدراسات والمتابعة",
 ],
-
   
 ];
 ?>            
@@ -62,8 +63,8 @@ $text = [
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2><?= $text['Nos projets'][$language]; ?></h2>
-                            <h3> <?= $text['Le BEREG a réalisée'][$language]; ?> </h3>
+                            <h2 <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['Nos projets'][$language]; ?></h2>
+                            <h3 <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>> <?= $text['Le BEREG a réalisée'][$language]; ?> </h3>
                         </div>
 
                     </div>

@@ -45,32 +45,38 @@
 $text = [
   'Suivi des chantiers' => [
     'fr' => 'Suivi des chantiers',
-    'en' => 'Construction Supervision'
+    'en' => 'Construction Supervision',
+    'ar' => 'متابعة الورشات',
 ],
 
 'Dans le cadre' => [
     'fr' => 'Dans le cadre de projets de suivi, le BEREG, par le biais de ses architectes, ingénieurs et techniciens, dûment qualifiés, assurent pour le compte des maîtres d’ouvrage, le suivi d’exécution des réalisations des projets qui lui sont confiés par ces derniers. A ce titre, il garantit le bon déroulement des travaux de construction et ce en respectant les étapes suivantes :',
-    'en' => 'As part of supervision assignments, B.E.R.E.G, through its duly qualified architects, engineers, and technicians, ensures on behalf of project owners the monitoring of project execution entrusted to it. In this regard, it guarantees the proper progress of construction works by following these key steps:'
+    'en' => 'As part of supervision assignments, B.E.R.E.G, through its duly qualified architects, engineers, and technicians, ensures on behalf of project owners the monitoring of project execution entrusted to it. In this regard, it guarantees the proper progress of construction works by following these key steps:',
+    'ar' => "في إطار مشاريع المتابعة، يضمن مكتب \u{2067}BEREG\u{2069}، من خلال مهندسيه المعماريين ومهندسيه وتقنييه المؤهلين، ولحساب أصحاب المشاريع، متابعة تنفيذ المشاريع الموكلة إليه. وبهذه الصفة، يضمن السير الحسن لأشغال البناء من خلال احترام الخطوات التالية:",
 ],
 
 'Établissement d’un planning' => [
     'fr' => 'Établissement d’un planning de chantier en identifiant les travaux et en structurant les tâches. ',
-    'en' => 'Preparation of a site schedule by identifying works and structuring tasks.'
+    'en' => 'Preparation of a site schedule by identifying works and structuring tasks.',
+    'ar' => 'إعداد مخطط زمني للورشة من خلال تحديد الأشغال وهيكلة المهام.',
 ],
 
 'Mobilisation des ressources' => [
     'fr' => 'Mobilisation des ressources nécessaires pour chaque étape des travaux. ',
-    'en' => 'Mobilization of the necessary resources for each stage of the works.'
+    'en' => 'Mobilization of the necessary resources for each stage of the works.',
+    'ar' => 'تعبئة الموارد اللازمة لكل مرحلة من مراحل الأشغال.',
 ],
 
 'Communication avec les' => [
-    'fr' => 'Communication avec les différentes parties prenantes notamment  avec les conducteurs de travaux et ce en tenant des réunions de chantier à l’effet de faire le point.',
-    'en' => 'Communication with the various stakeholders, particularly site managers, through regular site meetings to review progress.'
+    'fr' => 'Communication avec les différentes parties prenantes notamment avec les conducteurs de travaux et ce en tenant des réunions de chantier à l’effet de faire le point.',
+    'en' => 'Communication with the various stakeholders, particularly site managers, through regular site meetings to review progress.',
+    'ar' => 'التواصل مع مختلف الأطراف المعنية، لا سيما مع مسيري الأشغال، وذلك من خلال عقد اجتماعات الورشة لتقييم الوضع.',
 ],
 
 'S’assurer du respect des' => [
     'fr' => 'S’assurer du respect des normes techniques, le respect des cahiers des charges, les délais ainsi que les normes d’environnement et de sécurité et ce tout au long du chantier.',
-    'en' => 'Ensuring compliance with technical standards, contractual specifications, deadlines, as well as environmental and safety regulations throughout the project.'
+    'en' => 'Ensuring compliance with technical standards, contractual specifications, deadlines, as well as environmental and safety regulations throughout the project.',
+    'ar' => 'السهر على احترام المعايير التقنية، ودفاتر الشروط، والآجال، وكذا معايير البيئة والسلامة طوال فترة الورشة.',
 ],
 ];
 ?>       
@@ -81,7 +87,7 @@ $text = [
                     <div class="row">
                         <div class="col-12">
                                  
-                            <h2><?= $text['Suivi des chantiers'][$language]; ?> </h2>
+                            <h2 <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['Suivi des chantiers'][$language]; ?> </h2>
                            
                           
                         </div>
@@ -104,12 +110,12 @@ $text = [
                         <div class="col-lg-7 col-md-7 col-sm-11">
                             
                             <div class="about-text">
-                                <p><?= $text['Dans le cadre'][$language]; ?></p>
+                                <p <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['Dans le cadre'][$language]; ?></p>
 
-                                    <p class="col-8 ms-4"> 1. <?= $text['Établissement d’un planning'][$language]; ?> </p> 
-                                    <p class="col-8 ps-4"> 2. <?= $text['Mobilisation des ressources'][$language]; ?>  </p>
-                                    <p class="col-8 ps-4"> 3. <?= $text['Communication avec les'][$language]; ?>  </p>
-                                    <p class="col-8 ps-4"> 4. <?= $text['S’assurer du respect des'][$language]; ?></p>
+                                    <p class="col-8 ms-4" <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>> 1. <?= $text['Établissement d’un planning'][$language]; ?> </p> 
+                                    <p class="col-8 ps-4" <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>> 2. <?= $text['Mobilisation des ressources'][$language]; ?>  </p>
+                                    <p class="col-8 ps-4" <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>> 3. <?= $text['Communication avec les'][$language]; ?>  </p>
+                                    <p class="col-8 ps-4" <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>> 4. <?= $text['S’assurer du respect des'][$language]; ?></p>
                                 
                             </div>
                         </div>

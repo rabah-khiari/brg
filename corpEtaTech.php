@@ -45,39 +45,45 @@
 $text = [
 'Corps d’état technique' => [
     'fr' => 'Corps d’état technique',
-    'en' => 'Technical Building Trades'
+    'en' => 'Technical Building Trades',
+    'ar' => 'التخصصات التقنية للبناء',
 ],
 
 'Les corps d\'état' => [
     'fr' => 'Les corps d\'état techniques concernent les métiers du bâtiment suivants: ',
-    'en' => 'Technical building trades include the following construction disciplines: '
+    'en' => 'Technical building trades include the following construction disciplines: ',
+    'ar' => 'تشمل التخصصات التقنية للبناء المهن التالية: ',
 ],
 
 'corps d\'état du gros-œuvre (GO)' => [
     'fr' => 'corps d\'état du gros-œuvre (GO)',
-    'en' => 'Structural works (Shell & Core / Main structural works)'
+    'en' => 'Structural works (Shell & Core / Main structural works)',
+    'ar' => "تخصص الأشغال الكبرى (\u{2067}GO\u{2069})",
 ],
 
 'corps d\'état du clos' => [
     'fr' => 'corps d\'état du clos et couvert (CEC)',
-    'en' => 'Envelope works (Building envelope – watertight structure)'
+    'en' => 'Envelope works (Building envelope – watertight structure)',
+    'ar' => "تخصص الغلاف والغطاء (\u{2067}CEC\u{2069})",
 ],
 
 'corps d\'état secondaires (CES)' => [
     'fr' => 'corps d\'état secondaires (CES)',
-    'en' => 'Secondary works (Finishing works)'
+    'en' => 'Secondary works (Finishing works)',
+    'ar' => "تخصص الأشغال الثانوية (\u{2067}CES\u{2069})",
 ],
 
 'corps d\'état Chauffage-Ventilation-Clim-Electricité' => [
     'fr' => 'corps d\'état Chauffage-Ventilation-Clim-Electricité (CVCE)',
-    'en' => 'Heating, Ventilation, Air Conditioning and Electrical works (HVAC & Electrical)'
+    'en' => 'Heating, Ventilation, Air Conditioning and Electrical works (HVAC & Electrical)',
+    'ar' => "تخصص التدفئة والتهوية وتكييف الهواء والكهرباء (\u{2067}CVCE\u{2069})",
 ],
 
 'Ce domaine fait' => [
     'fr' => 'Ce domaine fait aussi partie des maîtrises du BEREG. Ses ingénieurs et techniciens peuvent réaliser les études de tous corps d’état technique en toutes circonstances.',
-    'en' => 'This field is also one of B.E.R.E.G’s areas of expertise. Its engineers and technicians are capable of carrying out studies covering all technical building trades under all circumstances.'
+    'en' => 'This field is also one of B.E.R.E.G’s areas of expertise. Its engineers and technicians are capable of carrying out studies covering all technical building trades under all circumstances.',
+    'ar' => "يعد هذا المجال أيضاً جزءاً من تخصصات مكتب \u{2067}BEREG\u{2069}. حيث يمكن لمهندسيه وتقنييه إنجاز الدراسات الخاصة بجميع التخصصات التقنية في كافة الظروف.",
 ],
-
 ];
 ?>
             <!-- Page Header Start -->
@@ -86,7 +92,7 @@ $text = [
                     <div class="row">
                         <div class="col-12">
                                  
-                            <h2><?= $text['Corps d’état technique'][$language]; ?>   </h2>
+                            <h2 <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['Corps d’état technique'][$language]; ?>   </h2>
                           
                             
                         </div>
@@ -108,8 +114,8 @@ $text = [
                         </div>
                         <div class="mt-0 col-lg-7 col-md-6">
                             
-                            <div class="about-text">
-                                <p><?= $text['Les corps d\'état'][$language]; ?>
+                            <div class="about-text" >
+                                <p <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['Les corps d\'état'][$language]; ?>
                                 
                                 <br>
                                 &nbsp; &nbsp; • &nbsp; <?= $text['corps d\'état du gros-œuvre (GO)'][$language]; ?> <br>
@@ -118,7 +124,7 @@ $text = [
                                 &nbsp; &nbsp; • &nbsp; <?= $text['corps d\'état Chauffage-Ventilation-Clim-Electricité'][$language]; ?><br>
 
                                 </p>
-                                <p><?= $text['Ce domaine fait'][$language]; ?></p>
+                                <p <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>><?= $text['Ce domaine fait'][$language]; ?></p>
 
                             </div>
                         </div>

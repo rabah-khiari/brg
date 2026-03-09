@@ -46,27 +46,32 @@
 $text = [
   'Politique qualité' => [
     'fr' => 'Politique qualité',
-    'en' => 'Quality Policy'
+    'en' => 'Quality Policy',
+    'ar' => 'سياسة الجودة',
 ],
 
 'Système Management Qualité' => [
     'fr' => 'Système Management Qualité',
-    'en' => 'Quality Management System'
+    'en' => 'Quality Management System',
+    'ar' => 'نظام إدارة الجودة',
 ],
 
 'A l’instar de' => [
     'fr' => 'A l’instar de la quasi majorité des entreprises nationales et internationales, le BEREG, pour garantir la qualité de ses produits et services, a adopté le système management de la qualité (SMQ) ISO 9001 version d’abord 2008 ensuite version 2015 à compter de 2018.</p>',
-    'en' => 'Like the vast majority of national and international companies, B.E.R.E.G has adopted the Quality Management System (QMS) ISO 9001, first in its 2008 version and later in the 2015 version starting from 2018, to ensure the quality of its products and services.</p>'
+    'en' => 'Like the vast majority of national and international companies, B.E.R.E.G has adopted the Quality Management System (QMS) ISO 9001, first in its 2008 version and later in the 2015 version starting from 2018, to ensure the quality of its products and services.</p>',
+    'ar' => "على غرار الغالبية العظمى من الشركات الوطنية والدولية، اعتمد مكتب \u{2067}BEREG\u{2069} نظام إدارة الجودة (\u{2067}SMQ\u{2069}) أيزو \u{2067}ISO 9001\u{2069} إصدار 2008 أولاً، ثم إصدار 2015 اعتباراً من عام 2018، وذلك لضمان جودة منتجاته وخدماته.</p>",
 ],
 
 'Cette démarche a' => [
     'fr' => 'Cette démarche a contribué à renforcer la confiance de ses clients et à favoriser la culture d’amélioration continue dans un environnement économique de plus en plus exigeant et concurrentiel, incitant les entreprises à innover et à offrir les meilleures prestations possibles.',
-    'en' => 'This approach has helped strengthen client confidence and promote a culture of continuous improvement in an increasingly demanding and competitive economic environment, encouraging the company to innovate and provide the best possible services.'
+    'en' => 'This approach has helped strengthen client confidence and promote a culture of continuous improvement in an increasingly demanding and competitive economic environment, encouraging the company to innovate and provide the best possible services.',
+    'ar' => 'لقد ساهم هذا المسعى في تعزيز ثقة زبائنه وترسيخ ثقافة التحسين المستمر في بيئة اقتصادية تزداد تطلباً وتنافسية، مما يحفز الشركات على الابتكار وتقديم أفضل الخدمات الممكنة.',
 ],
 
 'A travers les' => [
     'fr' => 'A travers les processus du système management qualité, le BEREG peut désormais mesurer plusieurs indicateurs de performance parmi lesquels la satisfaction clients qui a atteint un taux appréciable en fin 2023 puisqu’il se situe à 86%.',
-    'en' => 'Through the quality management system processes, B.E.R.E.G can now measure several performance indicators, including customer satisfaction, which reached a satisfactory rate of 86% at the end of 2023.'
+    'en' => 'Through the quality management system processes, B.E.R.E.G can now measure several performance indicators, including customer satisfaction, which reached a satisfactory rate of 86% at the end of 2023.',
+    'ar' => "من خلال عمليات نظام إدارة الجودة، أصبح بإمكان مكتب \u{2067}BEREG\u{2069} الآن قياس عدة مؤشرات للأداء، من بينها نسبة رضا الزبائن التي بلغت مستوى تقديراً بنهاية عام 2023، حيث وصلت إلى 86%.",
 ],
 
 ];
@@ -77,7 +82,7 @@ $text = [
                     <div class="row">
                         <div class="col-12">
                                  <h2><?= $text['Politique qualité'][$language]; ?></h2>
-                            <h3> <?= $text['Système Management Qualité'][$language]; ?></h>
+                            <h3 <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>> <?= $text['Système Management Qualité'][$language]; ?></h>
                             
                         </div>
                     
@@ -99,11 +104,11 @@ $text = [
                         <div class="col-lg-7 col-md-6">
                             
                             <div class="about-text">
-                                <p><?= $text['A l’instar de'][$language]; ?>
+                                <p <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?> ><?= $text['A l’instar de'][$language]; ?>
                                 <br/><?= $text['Cette démarche a'][$language]; ?>
                                 </p>
                                 <br/>
-                                <p><?= $text['A travers les'][$language]; ?>
+                                <p <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?> ><?= $text['A travers les'][$language]; ?>
                                  </p>
 
                             </div>

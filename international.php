@@ -45,30 +45,33 @@
 $text = [
 'LE BEREG A' => [
     'fr' => "LE BEREG A L’INTERNATIONAL",
-    'en' => "B.E.R.E.G INTERNATIONAL"
+    'en' => "B.E.R.E.G INTERNATIONAL",
+    'ar' => " (B.E.R.E.G) على المستوى الدولي",
 ],
 
 'Le BEREG est non' => [
     'fr' => 'Le BEREG est non seulement le pionnier et leader des bureaux d’Etudes Algériens de par la certification professionnelle internationale de 23 architectes et ingénieurs par le CERTIPOT AUTORIZED TESTING CENTER, et ce dans le cadre de l’implémentation du Building Information Modeling (BIM), mais aussi, par sa première position en Afrique en tant qu’entité gouvernementale en full BIM (Maîtrise de Tous Corps d’Etat TCE : Architecture, Structure, Mécanique, Electricité, Plomberie)',
-    'en' => 'B.E.R.E.G is not only a pioneer and leader among Algerian engineering design offices through the international professional certification of 23 architects and engineers by the CERTIPOT Authorized Testing Center, as part of the implementation of Building Information Modeling (BIM), but also holds the first position in Africa as a governmental entity fully operating in BIM (Mastering all technical disciplines: Architecture, Structure, Mechanical, Electrical, and Plumbing).'
+    'en' => 'B.E.R.E.G is not only a pioneer and leader among Algerian engineering design offices through the international professional certification of 23 architects and engineers by the CERTIPOT Authorized Testing Center, as part of the implementation of Building Information Modeling (BIM), but also holds the first position in Africa as a governmental entity fully operating in BIM (Mastering all technical disciplines: Architecture, Structure, Mechanical, Electrical, and Plumbing).',
+    'ar' => "إن مكتب \u{2067}B.E.R.E.G\u{2069} ليس فقط رائدًا ومتميزًا بين مكاتب الدراسات الجزائرية من خلال الحصول على شهادات مهنية دولية لـ 23 مهندسًا معماريًا ومهندسًا من قِبل مركز \u{2067}CERTIPOT\u{2069} المعتمد، وذلك في إطار تطبيق نمذجة معلومات البناء (\u{2067}BIM\u{2069})، بل يحتل أيضًا المرتبة الأولى في إفريقيا كهيئة حكومية تعمل بنظام \u{2067}Full BIM\u{2069} (التحكم في جميع التخصصات: الهندسة المعمارية، الهيكل، الميكانيك، الكهرباء، والترصيص).",
 ],
 
 'A noter que' => [
     'fr' => 'A noter que le BEREG a été félicité pour son initiative par BIM Africa, un organisme de la société civile (ONG) ayant pour mandat de permettre et de réglementer l’adoption et la mise en œuvre du BIM dans l’industrie de l’architecture, de l’engineering, et des opérations de constructions (AECO) à travers l’Afrique.',
-    'en' => 'It should be noted that B.E.R.E.G was praised for its initiative by BIM Africa, a civil society organization (NGO) mandated to enable and regulate the adoption and implementation of BIM in the architecture, engineering, and construction operations (AECO) industry across Africa.'
-],                        
+    'en' => 'It should be noted that B.E.R.E.G was praised for its initiative by BIM Africa, a civil society organization (NGO) mandated to enable and regulate the adoption and implementation of BIM in the architecture, engineering, and construction operations (AECO) industry across Africa.',
+    'ar' => "وتجدر الإشارة إلى أن مكتب \u{2067}B.E.R.E.G\u{2069} قد تلقى تهنئة على مبادرته من قِبل \u{2067}BIM Africa\u{2069}، وهي منظمة مجتمع مدني (منظمة غير حكومية) مفوضة لتمكين وتنظيم اعتماد وتنفيذ نظام \u{2067}BIM\u{2069} في قطاع الهندسة المعمارية والهندسة وعمليات البناء (\u{2067}AECO\u{2069}) في جميع أنحاء إفريقيا.",
+],
 
 'A ce titre,' => [
     'fr' => ' A ce titre, l’Algérie a été choisie parmi les quatre (04) pays africains (Afrique du Sud, Nigéria, Ethiopie et l’Algérie) pour être inscrit dans le rapport BIM 2020 du mois d’Août sur l’Afrique, qui met en exergue diverses initiatives sur la transformation numérique de l’industrie du bâtiment en Afrique, en présentant le projet pilote de mise en œuvre du processus BIM au sein du BEREG.',
-    'en' => 'In this regard, Algeria was selected among four African countries (South Africa, Nigeria, Ethiopia, and Algeria) to be included in the August 2020 BIM Africa report, which highlights various initiatives on the digital transformation of the construction industry in Africa, presenting the pilot project for implementing the BIM process within B.E.R.E.G.'
+    'en' => 'In this regard, Algeria was selected among four African countries (South Africa, Nigeria, Ethiopia, and Algeria) to be included in the August 2020 BIM Africa report, which highlights various initiatives on the digital transformation of the construction industry in Africa, presenting the pilot project for implementing the BIM process within B.E.R.E.G.',
+    'ar' => "وفي هذا الصدد، تم اختيار الجزائر من بين أربع (04) دول إفريقية (جنوب إفريقيا، نيجيريا، إثيوبيا والجزائر) ليتم إدراجها في تقرير \u{2067}BIM 2020\u{2069} لشهر أوت حول إفريقيا، والذي يسلط الضوء على مختلف المبادرات المتعلقة بالتحول الرقمي لقطاع البناء في إفريقيا، من خلال عرض المشروع النموذجي لتنفيذ مسار \u{2067}BIM\u{2069} داخل مكتب \u{2067}B.E.R.E.G\u{2069}.",
 ],
 
 'Il est important' => [
     'fr' => 'Il est important de signaler aussi, que le rapport BIM Afrique 2020 est largement accessible aux experts et professionnels à travers l’Afrique et le reste du monde.</p>',
-    'en' => 'It is also important to note that the BIM Africa 2020 report is widely accessible to experts and professionals across Africa and the rest of the world.</p>'
+    'en' => 'It also important to note that the BIM Africa 2020 report is widely accessible to experts and professionals across Africa and the rest of the world.</p>',
+    'ar' => "ومن المهم أيضًا الإشارة إلى أن تقرير \u{2067}BIM Africa 2020\u{2069} متاح بشكل واسع للخبراء والمهنيين عبر إفريقيا وبقية العالم.</p>",
 ],
-  
-  
 ];
 ?>
             <!-- Page Header Start -->
@@ -77,7 +80,7 @@ $text = [
                     <div class="row">
                         <div class="col-12">
                                  
-                            <h2><?= $text['LE BEREG A'][$language]; ?> </h2>
+                            <h2 <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?> ><?= $text['LE BEREG A'][$language]; ?> </h2>
                           
                             
                         </div>
@@ -101,11 +104,11 @@ $text = [
                         <div class="col-lg-7 col-md-6 ">
                             
                             <div class="about-text">
-                                <p><?= $text['Le BEREG est non'][$language]; ?></p>
+                                <p <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?> ><?= $text['Le BEREG est non'][$language]; ?></p>
                                 <br/><?= $text['A noter que'][$language]; ?></p>
                                 <br/>
-                                <p><?= $text['A ce titre,'][$language]; ?></p>
-                                <p> <?= $text['Il est important'][$language]; ?> <p> 
+                                <p <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?> ><?= $text['A ce titre,'][$language]; ?></p>
+                                <p <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?> > <?= $text['Il est important'][$language]; ?> <p> 
                                 
                             </div>
                         </div>

@@ -45,7 +45,7 @@
                     <div class="row">
                         <div class="col-12">
                                  
-                            <h2>avis d'infructuosité </h2>
+                            <h2>    <?= $language == 'fr' ? "Avis d'infructuosité" : ($language == 'ar' ? 'إشعار بعدم الجدوى' : 'Notice of Unsuccessful Tender'); ?> </h2>
                           
                             
                         </div>

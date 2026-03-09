@@ -32,7 +32,8 @@ $text = [
 
 'Secteurs d\'activité' => [
     'fr' => "Secteurs d'activité",
-    'en' => "Fields of Activity"
+    'en' => "Fields of Activity",
+    'ar' => "قطاعات النشاط",
 ],
 
 ];
@@ -55,7 +56,7 @@ $text = [
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2> <?= $text['Secteurs d\'activité'][$language]; ?></h2>
+                            <h2 <?= ($language == 'ar') ? 'dir="rtl"' : ''; ?>>  <?= $text['Secteurs d\'activité'][$language]; ?></h2>
                         </div>
 
                     </div>
