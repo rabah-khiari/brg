@@ -35,6 +35,11 @@ $text = [
         'en' => 'Our Units',
         'ar' => 'وحداتنا',
     ],
+    'recrutement' => [
+        'fr' => 'Recrutement',
+        'en' => 'Recruitment',
+        'ar' => 'التوظيف',
+    ],
     'Unit_Alger' => [
         'fr' => "Unité d'Alger",
         'en' => 'Algiers Unit',
@@ -80,10 +85,30 @@ $text = [
         'en' => 'Tizi-Ouzou Pole',
         'ar' => 'قطب تيزي وزو'
         ],
+    "BEREG  is currently looking for" => [
+        'fr' => "BEREG  est actuellement à la recherche d'ingénieurs et de professionnels talentueux dans divers domaines de la construction et de la conception.",
+        'en' => "BEREG  is currently looking for talented engineers and professionals in various fields of construction and design.",
+        'ar' => "يبحث مكتب الدراسات حاليا عن مهندسين وكفاءات موهوبة في مختلف مجالات البناء والتصميم.",
+    ],
+    "We are recruiting for" => [
+        'fr' => "Nous recrutons pour des postes tels que Architectes, Ingénieurs GC, Ingénieurs VRD, et d'autres domaines techniques et d'études connexes.",
+        'en' => "We are recruiting for positions such as Architects, Civil Engineers (GC), VRD Engineers, and other related technical and study fields.",
+        'ar' => "نحن نوظف حالياً في تخصصات عدة، منها: مهندسون معماريون، مهندسون مدنيون، مهندسون طبوغرافيون، بالإضافة إلى تخصصات تقنية ودراسية أخرى ذات صلة.",],
+        
+    "If you are motivated, passionate" => [
+        'fr' => "Si vous êtes motivé, passionné par l'ingénierie, et souhaitez contribuer à des projets majeurs, nous serions ravis de recevoir votre candidature.",
+        'en' => " If you are motivated, passionate about engineering, and want to contribute to major projects, we would be happy to receive your application.",
+        'ar' => "إذا كنت متحمسًا، شغوفًا بالهندسة، وترغب في المساهمة في مشاريع كبرى، فسيسعدنا استقبال طلبك.",],
+    "Please send your CV and application to:" => [
+        'fr' => "Veuillez envoyer votre CV et votre candidature à :",
+        'en' => "Please send your CV and application to:",
+        'ar' => "يرجى إرسال سيرتك الذاتية وطلبك إلى:",],
+        
 
 ];
 ?>
-
+ 
+ 
 <!DOCTYPE html>
 <html lang="<?= $language; ?>">
     <head>
@@ -163,6 +188,58 @@ $text = [
                     </div>
                 </div>
             </div>
+            <?php  if($language=='ar'){?>
+            <style>
+                p{
+                    direction: "rtl";
+                    text-align: right; unicode-bidi: embed;
+                };
+            </style>
+            <?php          
+            }     
+            ?>
+            <div class="">
+                <div class="section-header text-center">
+                    <h2> 📢 <?= $text['recrutement'][$language]; ?> </h2>
+                </div>
+                <div class="about wow fadeInUp  " data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4 col-md-4">
+                                <div class="about-img">
+                                    <img src="img/hiring.jpg" alt="Image">
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-8 col-md-8">
+                                <div class="section-header text-left">
+                                    
+                                   <p style="font-size: 18px; line-height: 1.6; color: #333;">
+                                      <?= $text['BEREG  is currently looking for'][$language]; ?>  
+                                    </p>
+
+                                    <p style="font-size: 18px; line-height: 1.6; color: #333;">
+                                       <?= $text['We are recruiting for'][$language]; ?>  
+                                    </p>
+
+                                    <p style="font-size: 18px; line-height: 1.6; color: #333;">
+                                        <?= $text['If you are motivated, passionate'][$language]; ?> 
+                                    </p>
+
+                                    <p style="font-size: 18px; line-height: 1.6; color: #333;"> 
+                                       <?= $text['Please send your CV and application to:'][$language]; ?> 
+                                        <br>
+                                        <strong style="text-align: center; font-size: 18px; line-height: 1.6; color: #333;">recruitment@bereg.dz</strong>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
             <div class="faqs">
                 <div class="container">
                     <div class="section-header text-center">
