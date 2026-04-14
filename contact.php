@@ -229,7 +229,9 @@ $text = [
                                     <p style="font-size: 18px; line-height: 1.6; color: #333;"> 
                                        <?= $text['Please send your CV and application to:'][$language]; ?> 
                                         <br>
-                                        <strong style="text-align: center; font-size: 18px; line-height: 1.6; color: #333;">recruitment@bereg.dz</strong>
+                                        <strong style="text-align: center; font-size: 18px; line-height: 1.6; color: #333;">
+                                            <a href="mailto:recrutement@bereg.dz">recrutement@bereg.dz</a>
+                                        </strong>
                                     </p>
 
                                 </div>
