@@ -120,6 +120,7 @@ if (isset($_GET['lang']) && !in_array($_GET['lang'], $allowed_langs, true)) {
                     -->
 
                     <a href="contact.php?lang=<?= $language ?>" class="nav-item nav-link"><?= $language == 'fr' ? 'Contact' : ($language == 'ar' ? 'اتصل بنا' : 'Contact'); ?></a>
+                    <a href="recrutment.php?lang=<?= $language ?>" class="nav-item nav-link"><?= $language == 'fr' ? 'Recrutement' : ($language == 'ar' ? 'التوظيف' : 'Recruitment'); ?></a>
                     
                     
                     <div class="nav-item dropdown">
