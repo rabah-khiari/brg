@@ -129,7 +129,7 @@ if (isset($_GET['lang']) && !in_array($_GET['lang'], $allowed_langs, true)) {
                             <a href="AppeldOffres1.php?lang=<?= $language ?>" class="dropdown-item"><?= $language == 'fr' ? 'Ministère de l\'Habitat' : ($language == 'ar' ? 'وزارة السكن' : 'Ministry of Housing'); ?></a>
                             <a href="AppeldOffres2.php?lang=<?= $language ?>" class="dropdown-item"><?= $language == 'fr' ? 'N°01/BEREG EPE-SPA/2025' : ($language == 'ar' ? 'رقم 01/BEREG EPE-SPA/2025' : 'No. 01/BEREG EPE-SPA/2025'); ?></a>
                             <a href="AppeldOffres3.php?lang=<?= $language ?>" class="dropdown-item"><?= $language == 'fr' ? 'Avis d\'Infructuosité' : ($language == 'ar' ? 'إشعار عدم النجاح' : 'Notice of Unsuccessful Tender'); ?></a>
-                            <a href="AppeldOffres4.php?lang=<?= $language ?>" class="dropdown-item"><?= $language == 'fr' ? 'Appel d’Offres national ouvert N°01/BEREG EPE-SPA/2026.' : ($language == 'ar' ? 'المزاد الوطني المفتوح' : 'National Tender Open N°01/BEREG EPE-SPA/2026.'); ?></a>
+                            <a href="AppeldOffres4.php?lang=<?= $language ?>" class="dropdown-item"><?= $language == 'fr' ? 'Appel d’Offres N°01/BEREG EPE-SPA/2026.' : ($language == 'ar' ? 'المزاد الوطني المفتوح' : 'National Tender Open N°01/BEREG EPE-SPA/2026.'); ?></a>
                         </div>
                        
                     </div>
